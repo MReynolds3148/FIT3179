@@ -1,6 +1,4 @@
-﻿UNODC,unodc_ddds@un.org,,,,,,,,,,,
-17/06/2022,,,,,,,,,,,,
-Iso3_code,Country,Region,Subregion,Indicator,Dimension,Category,Sex,Age,Year,Unit of measurement,VALUE,Source
+﻿Iso3_code,Country,Region,Subregion,Indicator,Dimension,Category,Sex,Age,Year,Unit of measurement,VALUE,Source
 AGO,Angola,Africa,Sub-Saharan Africa,Arms seized,by legal justification of seizure,other,na,na,2018,Counts,0,IAFQ
 AGO,Angola,Africa,Sub-Saharan Africa,Arms seized,by legal justification of seizure,unknown,na,na,2018,Counts,0,IAFQ
 AGO,Angola,Africa,Sub-Saharan Africa,Arms seized,by legal justification of seizure,Altered markings,na,na,2018,Counts,0,IAFQ
