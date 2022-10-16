@@ -1,0 +1,667 @@
+[
+    {
+    "id": 1,
+    "name": "Global"
+    },
+    {
+    "id": 2,
+    "name": "Oceania",
+    "parent": 1
+    },
+    {
+    "id": 3,
+    "name": "Americas",
+    "parent": 1
+    },
+    {
+    "id": 4,
+    "name": "Europe",
+    "parent": 1
+    },
+    {
+    "id": 5,
+    "name": "Africa",
+    "parent": 1
+    },
+    {
+    "id": 6,
+    "name": "Asia",
+    "parent": 1
+    },
+	{
+	"id": 7,
+	"name": "Albania",
+	"parent": 4,
+	"val": 132865
+	},
+	{
+	"id": 8,
+	"name": "Algeria",
+	"parent": 5,
+	"val": 215803
+	},
+	{
+	"id": 9,
+	"name": "Andorra",
+	"parent": 4,
+	"val": 452
+	},
+	{
+	"id": 10,
+	"name": "Angola",
+	"parent": 5,
+	"val": 381008
+	},
+	{
+	"id": 11,
+	"name": "Antigua and Barbuda",
+	"parent": 3,
+	"val": 551
+	},
+	{
+	"id": 12,
+	"name": "Argentina",
+	"parent": 3,
+	"val": 770490
+	},
+	{
+	"id": 13,
+	"name": "Armenia",
+	"parent": 6,
+	"val": 15175
+	},
+	{
+	"id": 14,
+	"name": "Australia",
+	"parent": 2,
+	"val": 6284205
+	},
+	{
+	"id": 15,
+	"name": "Azerbaijan",
+	"parent": 6,
+	"val": 69815
+	},
+	{
+	"id": 16,
+	"name": "Bahamas",
+	"parent": 3,
+	"val": 3878
+	},
+	{
+	"id": 17,
+	"name": "Belarus",
+	"parent": 4,
+	"val": 258582
+	},
+	{
+	"id": 18,
+	"name": "Belgium",
+	"parent": 4,
+	"val": 57896
+	},
+	{
+	"id": 19,
+	"name": "Bolivia (Plurinational State of)",
+	"parent": 3,
+	"val": 2030
+	},
+	{
+	"id": 20,
+	"name": "Botswana",
+	"parent": 5,
+	"val": 1123
+	},
+	{
+	"id": 21,
+	"name": "Brazil",
+	"parent": 3,
+	"val": 2041662
+	},
+	{
+	"id": 22,
+	"name": "Bulgaria",
+	"parent": 4,
+	"val": 1391
+	},
+	{
+	"id": 23,
+	"name": "Burkina Faso",
+	"parent": 5,
+	"val": 5766
+	},
+	{
+	"id": 24,
+	"name": "Burundi",
+	"parent": 5,
+	"val": 2706
+	},
+	{
+	"id": 25,
+	"name": "Cabo Verde",
+	"parent": 5,
+	"val": 387
+	},
+	{
+	"id": 26,
+	"name": "Cameroon",
+	"parent": 5,
+	"val": 220
+	},
+	{
+	"id": 27,
+	"name": "Canada",
+	"parent": 3,
+	"val": 58707
+	},
+	{
+	"id": 28,
+	"name": "Central African Republic",
+	"parent": 5,
+	"val": 36685
+	},
+	{
+	"id": 29,
+	"name": "Chile",
+	"parent": 3,
+	"val": 283595
+	},
+	{
+	"id": 30,
+	"name": "Colombia",
+	"parent": 3,
+	"val": 2551769
+	},
+	{
+	"id": 31,
+	"name": "Costa Rica",
+	"parent": 3,
+	"val": 131670
+	},
+	{
+	"id": 32,
+	"name": "Cote d'Ivoire",
+	"parent": 5,
+	"val": 2568
+	},
+	{
+	"id": 33,
+	"name": "Croatia",
+	"parent": 4,
+	"val": 28022
+	},
+	{
+	"id": 34,
+	"name": "Cuba",
+	"parent": 3,
+	"val": 15465
+	},
+	{
+	"id": 35,
+	"name": "Cyprus",
+	"parent": 6,
+	"val": 2737
+	},
+	{
+	"id": 36,
+	"name": "Democratic Republic of the Congo",
+	"parent": 5,
+	"val": 960
+	},
+	{
+	"id": 37,
+	"name": "Denmark",
+	"parent": 4,
+	"val": 26395
+	},
+	{
+	"id": 38,
+	"name": "Dominican Republic",
+	"parent": 3,
+	"val": 28046
+	},
+	{
+	"id": 39,
+	"name": "Ecuador",
+	"parent": 3,
+	"val": 87657
+	},
+	{
+	"id": 40,
+	"name": "El Salvador",
+	"parent": 3,
+	"val": 187306
+	},
+	{
+	"id": 41,
+	"name": "Eswatini",
+	"parent": 5,
+	"val": 1006
+	},
+	{
+	"id": 42,
+	"name": "Finland",
+	"parent": 4,
+	"val": 24277
+	},
+	{
+	"id": 43,
+	"name": "France",
+	"parent": 4,
+	"val": 43721
+	},
+	{
+	"id": 44,
+	"name": "Georgia",
+	"parent": 6,
+	"val": 9249
+	},
+	{
+	"id": 45,
+	"name": "Ghana",
+	"parent": 5,
+	"val": 1471
+	},
+	{
+	"id": 46,
+	"name": "Greece",
+	"parent": 4,
+	"val": 1333593
+	},
+	{
+	"id": 47,
+	"name": "Grenada",
+	"parent": 3,
+	"val": 493
+	},
+	{
+	"id": 48,
+	"name": "Guatemala",
+	"parent": 3,
+	"val": 255561
+	},
+	{
+	"id": 49,
+	"name": "Guinea",
+	"parent": 5,
+	"val": 1680
+	},
+	{
+	"id": 50,
+	"name": "Guyana",
+	"parent": 3,
+	"val": 7125
+	},
+	{
+	"id": 51,
+	"name": "Honduras",
+	"parent": 3,
+	"val": 121724
+	},
+	{
+	"id": 52,
+	"name": "Hungary",
+	"parent": 4,
+	"val": 4654
+	},
+	{
+	"id": 53,
+	"name": "Iraq",
+	"parent": 6,
+	"val": 80100
+	},
+	{
+	"id": 54,
+	"name": "Ireland",
+	"parent": 4,
+	"val": 7050
+	},
+	{
+	"id": 55,
+	"name": "Italy",
+	"parent": 4,
+	"val": 116474
+	},
+	{
+	"id": 56,
+	"name": "Jamaica",
+	"parent": 3,
+	"val": 10674
+	},
+	{
+	"id": 57,
+	"name": "Japan",
+	"parent": 6,
+	"val": 110089
+	},
+	{
+	"id": 58,
+	"name": "Kazakhstan",
+	"parent": 6,
+	"val": 69407
+	},
+	{
+	"id": 59,
+	"name": "Kenya",
+	"parent": 5,
+	"val": 277401
+	},
+	{
+	"id": 60,
+	"name": "Kuwait",
+	"parent": 6,
+	"val": 3630
+	},
+	{
+	"id": 61,
+	"name": "Kyrgyzstan",
+	"parent": 6,
+	"val": 219
+	},
+	{
+	"id": 62,
+	"name": "Latvia",
+	"parent": 4,
+	"val": 35016
+	},
+	{
+	"id": 63,
+	"name": "Lebanon",
+	"parent": 6,
+	"val": 11628
+	},
+	{
+	"id": 64,
+	"name": "Libya",
+	"parent": 5,
+	"val": 7813
+	},
+	{
+	"id": 65,
+	"name": "Liechtenstein",
+	"parent": 4,
+	"val": 805
+	},
+	{
+	"id": 66,
+	"name": "Lithuania",
+	"parent": 4,
+	"val": 52945
+	},
+	{
+	"id": 67,
+	"name": "Luxembourg",
+	"parent": 4,
+	"val": 19415
+	},
+	{
+	"id": 68,
+	"name": "Madagascar",
+	"parent": 5,
+	"val": 414
+	},
+	{
+	"id": 69,
+	"name": "Mauritius",
+	"parent": 5,
+	"val": 110
+	},
+	{
+	"id": 70,
+	"name": "Mexico",
+	"parent": 3,
+	"val": 3550879
+	},
+	{
+	"id": 71,
+	"name": "Mongolia",
+	"parent": 6,
+	"val": 225
+	},
+	{
+	"id": 72,
+	"name": "Montenegro",
+	"parent": 4,
+	"val": 6072
+	},
+	{
+	"id": 73,
+	"name": "Morocco",
+	"parent": 5,
+	"val": 56962
+	},
+	{
+	"id": 74,
+	"name": "Myanmar",
+	"parent": 6,
+	"val": 100391
+	},
+	{
+	"id": 75,
+	"name": "Namibia",
+	"parent": 5,
+	"val": 575
+	},
+	{
+	"id": 76,
+	"name": "Nepal",
+	"parent": 6,
+	"val": 725
+	},
+	{
+	"id": 77,
+	"name": "Netherlands",
+	"parent": 4,
+	"val": 175944
+	},
+	{
+	"id": 78,
+	"name": "New Zealand",
+	"parent": 2,
+	"val": 7638
+	},
+	{
+	"id": 79,
+	"name": "Nicaragua",
+	"parent": 3,
+	"val": 151794
+	},
+	{
+	"id": 80,
+	"name": "Niger",
+	"parent": 5,
+	"val": 213
+	},
+	{
+	"id": 81,
+	"name": "North Macedonia",
+	"parent": 4,
+	"val": 17028
+	},
+	{
+	"id": 82,
+	"name": "Norway",
+	"parent": 4,
+	"val": 56980
+	},
+	{
+	"id": 83,
+	"name": "Panama",
+	"parent": 3,
+	"val": 62576
+	},
+	{
+	"id": 84,
+	"name": "Paraguay",
+	"parent": 3,
+	"val": 484
+	},
+	{
+	"id": 85,
+	"name": "Peru",
+	"parent": 3,
+	"val": 1069787
+	},
+	{
+	"id": 86,
+	"name": "Philippines",
+	"parent": 6,
+	"val": 4596
+	},
+	{
+	"id": 87,
+	"name": "Poland",
+	"parent": 4,
+	"val": 17841
+	},
+	{
+	"id": 88,
+	"name": "Portugal",
+	"parent": 4,
+	"val": 718092
+	},
+	{
+	"id": 89,
+	"name": "Qatar",
+	"parent": 6,
+	"val": 29766
+	},
+	{
+	"id": 90,
+	"name": "Republic of Moldova",
+	"parent": 4,
+	"val": 28686
+	},
+	{
+	"id": 91,
+	"name": "Romania",
+	"parent": 4,
+	"val": 169529
+	},
+	{
+	"id": 92,
+	"name": "Russian Federation",
+	"parent": 4,
+	"val": 167172
+	},
+	{
+	"id": 93,
+	"name": "Rwanda",
+	"parent": 5,
+	"val": 255
+	},
+	{
+	"id": 94,
+	"name": "Saint Lucia",
+	"parent": 3,
+	"val": 1074
+	},
+	{
+	"id": 95,
+	"name": "Serbia",
+	"parent": 4,
+	"val": 130004
+	},
+	{
+	"id": 96,
+	"name": "Slovakia",
+	"parent": 4,
+	"val": 21695
+	},
+	{
+	"id": 97,
+	"name": "Slovenia",
+	"parent": 4,
+	"val": 96910
+	},
+	{
+	"id": 98,
+	"name": "Spain",
+	"parent": 4,
+	"val": 1188610
+	},
+	{
+	"id": 99,
+	"name": "Sudan",
+	"parent": 5,
+	"val": 18975
+	},
+	{
+	"id": 100,
+	"name": "Suriname",
+	"parent": 3,
+	"val": 760
+	},
+	{
+	"id": 101,
+	"name": "Sweden",
+	"parent": 4,
+	"val": 77154
+	},
+	{
+	"id": 102,
+	"name": "Tajikistan",
+	"parent": 6,
+	"val": 16756
+	},
+	{
+	"id": 103,
+	"name": "Togo",
+	"parent": 5,
+	"val": 1367
+	},
+	{
+	"id": 104,
+	"name": "Trinidad and Tobago",
+	"parent": 3,
+	"val": 3306
+	},
+	{
+	"id": 105,
+	"name": "Tunisia",
+	"parent": 5,
+	"val": 71966
+	},
+	{
+	"id": 106,
+	"name": "Turkey",
+	"parent": 6,
+	"val": 76254
+	},
+	{
+	"id": 107,
+	"name": "Uganda",
+	"parent": 5,
+	"val": 53
+	},
+	{
+	"id": 108,
+	"name": "Ukraine",
+	"parent": 4,
+	"val": 41837
+	},
+	{
+	"id": 109,
+	"name": "United Kingdom of Great Britain and Northern Ireland",
+	"parent": 4,
+	"val": 134073
+	},
+	{
+	"id": 110,
+	"name": "United States of America",
+	"parent": 3,
+	"val": 4893186
+	},
+	{
+	"id": 111,
+	"name": "Uruguay",
+	"parent": 3,
+	"val": 46719
+	},
+	{
+		"id": 112,
+		"name": "Uzbekistan",
+		"parent": 6,
+		"val": 1090
+	}
+]
