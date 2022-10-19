@@ -1,4 +1,4 @@
-,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
+index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 0,Albania,ALB,Europe,Albania,567,41.153332,20.168331,41.153332,20.168331
 1,Albania,ALB,Europe,Others,1,41.153332,20.168331,,
 2,Albania,ALB,Europe,Total,570,41.153332,20.168331,,
