@@ -1,16 +1,16 @@
-index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
+,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 0,Albania,ALB,Europe,Albania,567,41.153332,20.168331,41.153332,20.168331
-1,Albania,ALB,Europe,Others,1,41.153332,20.168331,,
-2,Albania,ALB,Europe,Total,570,41.153332,20.168331,,
+1,Albania,ALB,Europe,Others,1,41.153332,20.168331,NaN,NaN
+2,Albania,ALB,Europe,Total,570,41.153332,20.168331,NaN,NaN
 3,Algeria,DZA,Africa,Algeria,3,28.033886,1.659626,28.033886,1.659626
 4,Algeria,DZA,Africa,Gambia,1,28.033886,1.659626,13.443182,-15.310139
 5,Algeria,DZA,Africa,Guinea,7,28.033886,1.659626,9.945587,-9.696645
 6,Algeria,DZA,Africa,Mali,19,28.033886,1.659626,17.570692,-3.996166
 7,Algeria,DZA,Africa,Niger,32,28.033886,1.659626,17.607789,8.081666
-8,Algeria,DZA,Africa,Total,62,28.033886,1.659626,,
+8,Algeria,DZA,Africa,Total,62,28.033886,1.659626,NaN,NaN
 9,Angola,AGO,Africa,Congo,1,-11.202692,17.873887,-4.038333,21.758664
-10,Angola,AGO,Africa,Total,22,-11.202692,17.873887,,
-11,Antigua and Barbuda,ATG,Americas,Total,15,17.060816,-61.796428,,
+10,Angola,AGO,Africa,Total,22,-11.202692,17.873887,NaN,NaN
+11,Antigua and Barbuda,ATG,Americas,Total,15,17.060816,-61.796428,NaN,NaN
 12,Argentina,ARG,Americas,Argentina,484,-38.416097,-63.616672,-38.416097,-63.616672
 13,Argentina,ARG,Americas,Bolivia (Plurinational State of),480,-38.416097,-63.616672,-16.290154,-63.588653
 14,Argentina,ARG,Americas,Brazil,2,-38.416097,-63.616672,-14.235004,-51.92528
@@ -22,13 +22,13 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 20,Argentina,ARG,Americas,India,1,-38.416097,-63.616672,20.593684,78.96288
 21,Argentina,ARG,Americas,Paraguay,275,-38.416097,-63.616672,-23.442503,-58.443832
 22,Argentina,ARG,Americas,Peru,32,-38.416097,-63.616672,-9.189967,-75.015152
-23,Argentina,ARG,Americas,Total,2999,-38.416097,-63.616672,,
+23,Argentina,ARG,Americas,Total,2999,-38.416097,-63.616672,NaN,NaN
 24,Argentina,ARG,Americas,Uruguay,2,-38.416097,-63.616672,-32.522779,-55.765835
 25,Argentina,ARG,Americas,Venezuela (Bolivarian Republic of),1,-38.416097,-63.616672,6.42375,-66.58973
 26,Armenia,ARM,Asia,Armenia,127,40.069099,45.038189,40.069099,45.038189
 27,Armenia,ARM,Asia,China,1,40.069099,45.038189,35.86166,104.195397
 28,Armenia,ARM,Asia,Russian Federation,24,40.069099,45.038189,61.52401,105.318756
-29,Armenia,ARM,Asia,Total,291,40.069099,45.038189,,
+29,Armenia,ARM,Asia,Total,291,40.069099,45.038189,NaN,NaN
 30,Australia,AUS,Oceania,Afghanistan,7,-25.274398,133.775136,33.93911,67.709953
 31,Australia,AUS,Oceania,Australia,25,-25.274398,133.775136,-25.274398,133.775136
 32,Australia,AUS,Oceania,China; Macao SAR,1,-25.274398,133.775136,22.198745,113.543873
@@ -36,12 +36,12 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 34,Australia,AUS,Oceania,India,6,-25.274398,133.775136,20.593684,78.96288
 35,Australia,AUS,Oceania,Indonesia,2,-25.274398,133.775136,-0.789275,113.921327
 36,Australia,AUS,Oceania,Malaysia,30,-25.274398,133.775136,4.210484,101.975766
-37,Australia,AUS,Oceania,Others,41,-25.274398,133.775136,,
+37,Australia,AUS,Oceania,Others,41,-25.274398,133.775136,NaN,NaN
 38,Australia,AUS,Oceania,Philippines,6,-25.274398,133.775136,12.879721,121.774017
 39,Australia,AUS,Oceania,Republic of Korea,27,-25.274398,133.775136,35.907757,127.766922
 40,Australia,AUS,Oceania,Singapore,1,-25.274398,133.775136,1.352083,103.819836
 41,Australia,AUS,Oceania,Thailand,51,-25.274398,133.775136,15.870032,100.992541
-42,Australia,AUS,Oceania,Total,335,-25.274398,133.775136,,
+42,Australia,AUS,Oceania,Total,335,-25.274398,133.775136,NaN,NaN
 43,Austria,AUT,Europe,Afghanistan,1,47.516231,14.550072,33.93911,67.709953
 44,Austria,AUT,Europe,Albania,54,47.516231,14.550072,41.153332,20.168331
 45,Austria,AUT,Europe,Austria,205,47.516231,14.550072,47.516231,14.550072
@@ -65,7 +65,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 63,Austria,AUT,Europe,Nepal,1,47.516231,14.550072,28.394857,84.124008
 64,Austria,AUT,Europe,Nicaragua,1,47.516231,14.550072,12.865416,-85.207229
 65,Austria,AUT,Europe,Nigeria,137,47.516231,14.550072,9.081999,8.675277
-66,Austria,AUT,Europe,Others,68,47.516231,14.550072,,
+66,Austria,AUT,Europe,Others,68,47.516231,14.550072,NaN,NaN
 67,Austria,AUT,Europe,Paraguay,1,47.516231,14.550072,-23.442503,-58.443832
 68,Austria,AUT,Europe,Peru,1,47.516231,14.550072,-9.189967,-75.015152
 69,Austria,AUT,Europe,Philippines,51,47.516231,14.550072,12.879721,121.774017
@@ -79,7 +79,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 77,Austria,AUT,Europe,Switzerland,1,47.516231,14.550072,46.818188,8.227512
 78,Austria,AUT,Europe,Syrian Arab Republic,2,47.516231,14.550072,34.802075,38.996815
 79,Austria,AUT,Europe,The former Yugoslav Republic of Macedonia,1,47.516231,14.550072,41.608635,21.745275
-80,Austria,AUT,Europe,Total,377,47.516231,14.550072,,
+80,Austria,AUT,Europe,Total,377,47.516231,14.550072,NaN,NaN
 81,Austria,AUT,Europe,Tunisia,1,47.516231,14.550072,33.886917,9.537499
 82,Austria,AUT,Europe,Turkey,4,47.516231,14.550072,38.963745,35.243322
 83,Austria,AUT,Europe,Ukraine,34,47.516231,14.550072,48.379433,31.16558
@@ -90,11 +90,11 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 88,Azerbaijan,AZE,Asia,Kazakhstan,1,40.143105,47.576927,48.019573,66.923684
 89,Azerbaijan,AZE,Asia,Philippines,1,40.143105,47.576927,12.879721,121.774017
 90,Azerbaijan,AZE,Asia,Russian Federation,3,40.143105,47.576927,61.52401,105.318756
-91,Azerbaijan,AZE,Asia,Total,700,40.143105,47.576927,,
+91,Azerbaijan,AZE,Asia,Total,700,40.143105,47.576927,NaN,NaN
 92,Azerbaijan,AZE,Asia,Ukraine,1,40.143105,47.576927,48.379433,31.16558
 93,Azerbaijan,AZE,Asia,Uzbekistan,8,40.143105,47.576927,41.377491,64.585262
 94,Bahamas,BHS,Americas,Jamaica,1,25.03428,-77.39628,18.109581,-77.297508
-95,Bahamas,BHS,Americas,Total,1,25.03428,-77.39628,,
+95,Bahamas,BHS,Americas,Total,1,25.03428,-77.39628,NaN,NaN
 96,Bahrain,BHR,Asia,Bangladesh,123,25.930414,50.637772,23.684994,90.356331
 97,Bahrain,BHR,Asia,Colombia,2,25.930414,50.637772,4.570868,-74.297333
 98,Bahrain,BHR,Asia,Dominican Republic,6,25.930414,50.637772,18.735693,-70.162651
@@ -114,15 +114,15 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 112,Bahrain,BHR,Asia,Russian Federation,44,25.930414,50.637772,61.52401,105.318756
 113,Bahrain,BHR,Asia,Sri Lanka,12,25.930414,50.637772,7.873054,80.771797
 114,Bahrain,BHR,Asia,Thailand,27,25.930414,50.637772,15.870032,100.992541
-115,Bahrain,BHR,Asia,Total,406,25.930414,50.637772,,
+115,Bahrain,BHR,Asia,Total,406,25.930414,50.637772,NaN,NaN
 116,Bahrain,BHR,Asia,Vietnam,1,25.930414,50.637772,14.058324,108.277199
-117,Bangladesh,BGD,Asia,Total,1283,23.684994,90.356331,,
+117,Bangladesh,BGD,Asia,Total,1283,23.684994,90.356331,NaN,NaN
 118,Barbados,BRB,Americas,Guyana,5,13.193887,-59.543198,4.860416,-58.93018
-119,Barbados,BRB,Americas,Total,5,13.193887,-59.543198,,
+119,Barbados,BRB,Americas,Total,5,13.193887,-59.543198,NaN,NaN
 120,Belarus,BLR,Europe,Belarus,2504,53.709807,27.953389,53.709807,27.953389
 121,Belarus,BLR,Europe,Kazakhstan,1,53.709807,27.953389,48.019573,66.923684
 122,Belarus,BLR,Europe,Russian Federation,2,53.709807,27.953389,61.52401,105.318756
-123,Belarus,BLR,Europe,Total,5381,53.709807,27.953389,,
+123,Belarus,BLR,Europe,Total,5381,53.709807,27.953389,NaN,NaN
 124,Belarus,BLR,Europe,Ukraine,4,53.709807,27.953389,48.379433,31.16558
 125,Belarus,BLR,Europe,Vietnam,16,53.709807,27.953389,14.058324,108.277199
 126,Belgium,BEL,Europe,Afghanistan,1,50.503887,4.469936,33.93911,67.709953
@@ -179,13 +179,13 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 177,Belgium,BEL,Europe,State of Palestine,1,50.503887,4.469936,31.952162,35.233154
 178,Belgium,BEL,Europe,Syrian Arab Republic,1,50.503887,4.469936,34.802075,38.996815
 179,Belgium,BEL,Europe,Thailand,4,50.503887,4.469936,15.870032,100.992541
-180,Belgium,BEL,Europe,Total,959,50.503887,4.469936,,
+180,Belgium,BEL,Europe,Total,959,50.503887,4.469936,NaN,NaN
 181,Belgium,BEL,Europe,Tunisia,3,50.503887,4.469936,33.886917,9.537499
 182,Belgium,BEL,Europe,Turkey,8,50.503887,4.469936,38.963745,35.243322
 183,Belgium,BEL,Europe,Ukraine,4,50.503887,4.469936,48.379433,31.16558
 184,Belgium,BEL,Europe,Uzbekistan,1,50.503887,4.469936,41.377491,64.585262
 185,Belgium,BEL,Europe,Vietnam,2,50.503887,4.469936,14.058324,108.277199
-186,Benin,BEN,Africa,Total,2158,9.30769,2.315834,,
+186,Benin,BEN,Africa,Total,2158,9.30769,2.315834,NaN,NaN
 187,Bolivia (Plurinational State of),BOL,Americas,Bangladesh,5,-16.290154,-63.588653,23.684994,90.356331
 188,Bolivia (Plurinational State of),BOL,Americas,Bolivia (Plurinational State of),1058,-16.290154,-63.588653,-16.290154,-63.588653
 189,Bolivia (Plurinational State of),BOL,Americas,Brazil,1,-16.290154,-63.588653,-14.235004,-51.92528
@@ -195,7 +195,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 193,Bolivia (Plurinational State of),BOL,Americas,Paraguay,8,-16.290154,-63.588653,-23.442503,-58.443832
 194,Bolivia (Plurinational State of),BOL,Americas,Peru,1,-16.290154,-63.588653,-9.189967,-75.015152
 195,Bolivia (Plurinational State of),BOL,Americas,Russian Federation,1,-16.290154,-63.588653,61.52401,105.318756
-196,Bolivia (Plurinational State of),BOL,Americas,Total,1922,-16.290154,-63.588653,,
+196,Bolivia (Plurinational State of),BOL,Americas,Total,1922,-16.290154,-63.588653,NaN,NaN
 197,Bosnia and Herzegovina,BIH,Europe,Bosnia and Herzegovina,320,43.915886,17.679076,43.915886,17.679076
 198,Bosnia and Herzegovina,BIH,Europe,Bulgaria,2,43.915886,17.679076,42.733883,25.48583
 199,Bosnia and Herzegovina,BIH,Europe,Croatia,5,43.915886,17.679076,45.1,15.2
@@ -209,25 +209,25 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 207,Bosnia and Herzegovina,BIH,Europe,Serbia,20,43.915886,17.679076,44.016521,21.005859
 208,Bosnia and Herzegovina,BIH,Europe,Sri Lanka,1,43.915886,17.679076,7.873054,80.771797
 209,Bosnia and Herzegovina,BIH,Europe,The former Yugoslav Republic of Macedonia,1,43.915886,17.679076,41.608635,21.745275
-210,Bosnia and Herzegovina,BIH,Europe,Total,511,43.915886,17.679076,,
+210,Bosnia and Herzegovina,BIH,Europe,Total,511,43.915886,17.679076,NaN,NaN
 211,Bosnia and Herzegovina,BIH,Europe,Ukraine,3,43.915886,17.679076,48.379433,31.16558
 212,Bosnia and Herzegovina,BIH,Europe,United States of America,1,43.915886,17.679076,37.09024,-95.712891
-213,Brazil,BRA,Americas,Total,2282,-14.235004,-51.92528,,
+213,Brazil,BRA,Americas,Total,2282,-14.235004,-51.92528,NaN,NaN
 214,Brunei Darussalam,BRN,Asia,Indonesia,2,4.535277,114.727669,-0.789275,113.921327
 215,Brunei Darussalam,BRN,Asia,Thailand,6,4.535277,114.727669,15.870032,100.992541
-216,Brunei Darussalam,BRN,Asia,Total,8,4.535277,114.727669,,
-217,Bulgaria,BGR,Europe,Total,5361,42.733883,25.48583,,
+216,Brunei Darussalam,BRN,Asia,Total,8,4.535277,114.727669,NaN,NaN
+217,Bulgaria,BGR,Europe,Total,5361,42.733883,25.48583,NaN,NaN
 218,Burkina Faso,BFA,Africa,Benin,1,12.238333,-1.561593,9.30769,2.315834
 219,Burkina Faso,BFA,Africa,Burkina Faso,2772,12.238333,-1.561593,12.238333,-1.561593
 220,Burkina Faso,BFA,Africa,Ghana,1,12.238333,-1.561593,7.946527,-1.023194
 221,Burkina Faso,BFA,Africa,Mali,24,12.238333,-1.561593,17.570692,-3.996166
 222,Burkina Faso,BFA,Africa,Niger,1,12.238333,-1.561593,17.607789,8.081666
 223,Burkina Faso,BFA,Africa,Nigeria,1,12.238333,-1.561593,9.081999,8.675277
-224,Burkina Faso,BFA,Africa,Total,7674,12.238333,-1.561593,,
+224,Burkina Faso,BFA,Africa,Total,7674,12.238333,-1.561593,NaN,NaN
 225,Burundi,BDI,Africa,Burundi,10,-3.373056,29.918886,-3.373056,29.918886
-226,Burundi,BDI,Africa,Total,139,-3.373056,29.918886,,
-227,Cambodia,KHM,Asia,Total,42,12.565679,104.990963,,
-228,Cameroon,CMR,Africa,Total,83,7.369722,12.354722,,
+226,Burundi,BDI,Africa,Total,139,-3.373056,29.918886,NaN,NaN
+227,Cambodia,KHM,Asia,Total,42,12.565679,104.990963,NaN,NaN
+228,Cameroon,CMR,Africa,Total,83,7.369722,12.354722,NaN,NaN
 229,Canada,CAN,Americas,Canada,380,56.130366,-106.346771,56.130366,-106.346771
 230,Canada,CAN,Americas,China,2,56.130366,-106.346771,35.86166,104.195397
 231,Canada,CAN,Americas,Hong Kong,1,56.130366,-106.346771,22.396428,114.109497
@@ -248,7 +248,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 246,Canada,CAN,Americas,Saudi Arabia,1,56.130366,-106.346771,23.885942,45.079162
 247,Canada,CAN,Americas,Slovakia,1,56.130366,-106.346771,48.669026,19.699024
 248,Canada,CAN,Americas,Thailand,20,56.130366,-106.346771,15.870032,100.992541
-249,Canada,CAN,Americas,Total,1010,56.130366,-106.346771,,
+249,Canada,CAN,Americas,Total,1010,56.130366,-106.346771,NaN,NaN
 250,Canada,CAN,Americas,United Republic of Tanzania,1,56.130366,-106.346771,-6.369028,34.888822
 251,Canada,CAN,Americas,United States of America,2,56.130366,-106.346771,37.09024,-95.712891
 252,Chile,CHL,Americas,Argentina,2,-35.675147,-71.542969,-38.416097,-63.616672
@@ -266,16 +266,16 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 264,Chile,CHL,Americas,Republic of Korea,1,-35.675147,-71.542969,35.907757,127.766922
 265,Chile,CHL,Americas,Russian Federation,1,-35.675147,-71.542969,61.52401,105.318756
 266,Chile,CHL,Americas,South Africa,1,-35.675147,-71.542969,-30.559482,22.937506
-267,Chile,CHL,Americas,Total,408,-35.675147,-71.542969,,
+267,Chile,CHL,Americas,Total,408,-35.675147,-71.542969,NaN,NaN
 268,Chile,CHL,Americas,Venezuela (Bolivarian Republic of),1,-35.675147,-71.542969,6.42375,-66.58973
 269,Taiwan,TWN,Asia,Bangladesh,22,23.69781,120.960515,23.684994,90.356331
 270,Taiwan,TWN,Asia,Cambodia,23,23.69781,120.960515,12.565679,104.990963
 271,Taiwan,TWN,Asia,China,89,23.69781,120.960515,35.86166,104.195397
 272,Taiwan,TWN,Asia,Indonesia,1337,23.69781,120.960515,-0.789275,113.921327
-273,Taiwan,TWN,Asia,Others,12,23.69781,120.960515,,
+273,Taiwan,TWN,Asia,Others,12,23.69781,120.960515,NaN,NaN
 274,Taiwan,TWN,Asia,Philippines,141,23.69781,120.960515,12.879721,121.774017
 275,Taiwan,TWN,Asia,Thailand,43,23.69781,120.960515,15.870032,100.992541
-276,Taiwan,TWN,Asia,Total,2353,23.69781,120.960515,,
+276,Taiwan,TWN,Asia,Total,2353,23.69781,120.960515,NaN,NaN
 277,Taiwan,TWN,Asia,Vietnam,368,23.69781,120.960515,14.058324,108.277199
 278,Colombia,COL,Americas,Argentina,2,4.570868,-74.297333,-38.416097,-63.616672
 279,Colombia,COL,Americas,Canada,1,4.570868,-74.297333,56.130366,-106.346771
@@ -285,9 +285,9 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 283,Colombia,COL,Americas,Ecuador,1,4.570868,-74.297333,-1.831239,-78.183406
 284,Colombia,COL,Americas,India,1,4.570868,-74.297333,20.593684,78.96288
 285,Colombia,COL,Americas,Peru,2,4.570868,-74.297333,-9.189967,-75.015152
-286,Colombia,COL,Americas,Total,593,4.570868,-74.297333,,
+286,Colombia,COL,Americas,Total,593,4.570868,-74.297333,NaN,NaN
 287,Colombia,COL,Americas,Venezuela (Bolivarian Republic of),2,4.570868,-74.297333,6.42375,-66.58973
-288,Congo,COG,Africa,Total,73,-4.038333,21.758664,,
+288,Congo,COG,Africa,Total,73,-4.038333,21.758664,NaN,NaN
 289,Costa Rica,CRI,Americas,China,3,9.748917,-83.753428,35.86166,104.195397
 290,Costa Rica,CRI,Americas,Colombia,3,9.748917,-83.753428,4.570868,-74.297333
 291,Costa Rica,CRI,Americas,Costa Rica,25,9.748917,-83.753428,9.748917,-83.753428
@@ -297,7 +297,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 295,Costa Rica,CRI,Americas,Nicaragua,17,9.748917,-83.753428,12.865416,-85.207229
 296,Costa Rica,CRI,Americas,Philippines,5,9.748917,-83.753428,12.879721,121.774017
 297,Costa Rica,CRI,Americas,South Africa,1,9.748917,-83.753428,-30.559482,22.937506
-298,Costa Rica,CRI,Americas,Total,216,9.748917,-83.753428,,
+298,Costa Rica,CRI,Americas,Total,216,9.748917,-83.753428,NaN,NaN
 299,Costa Rica,CRI,Americas,Vietnam,21,9.748917,-83.753428,14.058324,108.277199
 300,Cote d'Ivoire,CIV,Africa,Benin,2,7.539989,-5.54708,9.30769,2.315834
 301,Cote d'Ivoire,CIV,Africa,Burkina Faso,29,7.539989,-5.54708,12.238333,-1.561593
@@ -309,7 +309,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 307,Cote d'Ivoire,CIV,Africa,Nigeria,11,7.539989,-5.54708,9.081999,8.675277
 308,Cote d'Ivoire,CIV,Africa,Philippines,1,7.539989,-5.54708,12.879721,121.774017
 309,Cote d'Ivoire,CIV,Africa,Togo,1,7.539989,-5.54708,8.619543,0.824782
-310,Cote d'Ivoire,CIV,Africa,Total,454,7.539989,-5.54708,,
+310,Cote d'Ivoire,CIV,Africa,Total,454,7.539989,-5.54708,NaN,NaN
 311,Croatia,HRV,Europe,Afghanistan,1,45.1,15.2,33.93911,67.709953
 312,Croatia,HRV,Europe,Bosnia and Herzegovina,14,45.1,15.2,43.915886,17.679076
 313,Croatia,HRV,Europe,Croatia,120,45.1,15.2,45.1,15.2
@@ -322,10 +322,10 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 320,Croatia,HRV,Europe,Romania,4,45.1,15.2,45.943161,24.96676
 321,Croatia,HRV,Europe,Serbia,3,45.1,15.2,44.016521,21.005859
 322,Croatia,HRV,Europe,Thailand,1,45.1,15.2,15.870032,100.992541
-323,Croatia,HRV,Europe,Total,234,45.1,15.2,,
+323,Croatia,HRV,Europe,Total,234,45.1,15.2,NaN,NaN
 324,Croatia,HRV,Europe,United States of America,1,45.1,15.2,37.09024,-95.712891
 325,Cuba,CUB,Americas,Cuba,60,21.521757,-77.781167,21.521757,-77.781167
-326,Cuba,CUB,Americas,Total,60,21.521757,-77.781167,,
+326,Cuba,CUB,Americas,Total,60,21.521757,-77.781167,NaN,NaN
 327,Cyprus,CYP,Asia,Bangladesh,6,35.126413,33.429859,23.684994,90.356331
 328,Cyprus,CYP,Asia,Belarus,4,35.126413,33.429859,53.709807,27.953389
 329,Cyprus,CYP,Asia,Bulgaria,27,35.126413,33.429859,42.733883,25.48583
@@ -350,7 +350,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 348,Cyprus,CYP,Asia,Russian Federation,13,35.126413,33.429859,61.52401,105.318756
 349,Cyprus,CYP,Asia,Sri Lanka,1,35.126413,33.429859,7.873054,80.771797
 350,Cyprus,CYP,Asia,Syrian Arab Republic,2,35.126413,33.429859,34.802075,38.996815
-351,Cyprus,CYP,Asia,Total,431,35.126413,33.429859,,
+351,Cyprus,CYP,Asia,Total,431,35.126413,33.429859,NaN,NaN
 352,Cyprus,CYP,Asia,Ukraine,15,35.126413,33.429859,48.379433,31.16558
 353,Cyprus,CYP,Asia,United Kingdom,1,35.126413,33.429859,55.378051,-3.435973
 354,Cyprus,CYP,Asia,Uzbekistan,1,35.126413,33.429859,41.377491,64.585262
@@ -376,7 +376,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 374,Czechia,CZE,Europe,State of Palestine,2,49.817492,15.472962,31.952162,35.233154
 375,Czechia,CZE,Europe,Suriname,1,49.817492,15.472962,3.919305,-56.027783
 376,Czechia,CZE,Europe,The former Yugoslav Republic of Macedonia,1,49.817492,15.472962,41.608635,21.745275
-377,Czechia,CZE,Europe,Total,646,49.817492,15.472962,,
+377,Czechia,CZE,Europe,Total,646,49.817492,15.472962,NaN,NaN
 378,Czechia,CZE,Europe,Ukraine,56,49.817492,15.472962,48.379433,31.16558
 379,Czechia,CZE,Europe,Uzbekistan,1,49.817492,15.472962,41.377491,64.585262
 380,Czechia,CZE,Europe,Vietnam,3,49.817492,15.472962,14.058324,108.277199
@@ -428,7 +428,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 426,Denmark,DNK,Europe,Sudan,1,56.26392,9.501785,12.862807,30.217636
 427,Denmark,DNK,Europe,Thailand,46,56.26392,9.501785,15.870032,100.992541
 428,Denmark,DNK,Europe,The former Yugoslav Republic of Macedonia,1,56.26392,9.501785,41.608635,21.745275
-429,Denmark,DNK,Europe,Total,693,56.26392,9.501785,,
+429,Denmark,DNK,Europe,Total,693,56.26392,9.501785,NaN,NaN
 430,Denmark,DNK,Europe,Tunisia,1,56.26392,9.501785,33.886917,9.537499
 431,Denmark,DNK,Europe,Uganda,17,56.26392,9.501785,1.373333,32.290275
 432,Denmark,DNK,Europe,Ukraine,4,56.26392,9.501785,48.379433,31.16558
@@ -440,14 +440,14 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 438,Dominican Republic,DOM,Americas,Dominican Republic,499,18.735693,-70.162651,18.735693,-70.162651
 439,Dominican Republic,DOM,Americas,Haiti,94,18.735693,-70.162651,18.971187,-72.285215
 440,Dominican Republic,DOM,Americas,Nicaragua,25,18.735693,-70.162651,12.865416,-85.207229
-441,Dominican Republic,DOM,Americas,Total,938,18.735693,-70.162651,,
+441,Dominican Republic,DOM,Americas,Total,938,18.735693,-70.162651,NaN,NaN
 442,Dominican Republic,DOM,Americas,Venezuela (Bolivarian Republic of),38,18.735693,-70.162651,6.42375,-66.58973
 443,Ecuador,ECU,Americas,Colombia,67,-1.831239,-78.183406,4.570868,-74.297333
 444,Ecuador,ECU,Americas,Cuba,3,-1.831239,-78.183406,21.521757,-77.781167
 445,Ecuador,ECU,Americas,Dominican Republic,1,-1.831239,-78.183406,18.735693,-70.162651
 446,Ecuador,ECU,Americas,Ecuador,440,-1.831239,-78.183406,-1.831239,-78.183406
 447,Ecuador,ECU,Americas,Peru,1,-1.831239,-78.183406,-9.189967,-75.015152
-448,Ecuador,ECU,Americas,Total,578,-1.831239,-78.183406,,
+448,Ecuador,ECU,Americas,Total,578,-1.831239,-78.183406,NaN,NaN
 449,Ecuador,ECU,Americas,Venezuela (Bolivarian Republic of),8,-1.831239,-78.183406,6.42375,-66.58973
 450,Egypt,EGY,Africa,Benin,1,26.820553,30.802498,9.30769,2.315834
 451,Egypt,EGY,Africa,Egypt,371,26.820553,30.802498,26.820553,30.802498
@@ -455,7 +455,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 453,Egypt,EGY,Africa,Indonesia,14,26.820553,30.802498,-0.789275,113.921327
 454,Egypt,EGY,Africa,Philippines,2,26.820553,30.802498,12.879721,121.774017
 455,Egypt,EGY,Africa,Thailand,1,26.820553,30.802498,15.870032,100.992541
-456,Egypt,EGY,Africa,Total,439,26.820553,30.802498,,
+456,Egypt,EGY,Africa,Total,439,26.820553,30.802498,NaN,NaN
 457,El Salvador,SLV,Americas,Argentina,1,13.794185,-88.89653,-38.416097,-63.616672
 458,El Salvador,SLV,Americas,China,2,13.794185,-88.89653,35.86166,104.195397
 459,El Salvador,SLV,Americas,Colombia,1,13.794185,-88.89653,4.570868,-74.297333
@@ -468,13 +468,13 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 466,El Salvador,SLV,Americas,Mexico,5,13.794185,-88.89653,23.634501,-102.552784
 467,El Salvador,SLV,Americas,Nicaragua,8,13.794185,-88.89653,12.865416,-85.207229
 468,El Salvador,SLV,Americas,Peru,1,13.794185,-88.89653,-9.189967,-75.015152
-469,El Salvador,SLV,Americas,Total,831,13.794185,-88.89653,,
+469,El Salvador,SLV,Americas,Total,831,13.794185,-88.89653,NaN,NaN
 470,Estonia,EST,Europe,Estonia,28,58.595272,25.013607,58.595272,25.013607
 471,Estonia,EST,Europe,Romania,1,58.595272,25.013607,45.943161,24.96676
-472,Estonia,EST,Europe,Total,332,58.595272,25.013607,,
+472,Estonia,EST,Europe,Total,332,58.595272,25.013607,NaN,NaN
 473,Fiji,FJI,Oceania,Fiji,1,-16.578193,179.414413,-16.578193,179.414413
 474,Fiji,FJI,Oceania,Thailand,1,-16.578193,179.414413,15.870032,100.992541
-475,Fiji,FJI,Oceania,Total,6,-16.578193,179.414413,,
+475,Fiji,FJI,Oceania,Total,6,-16.578193,179.414413,NaN,NaN
 476,Finland,FIN,Europe,Afghanistan,27,61.92411,25.748151,33.93911,67.709953
 477,Finland,FIN,Europe,Angola,1,61.92411,25.748151,-11.202692,17.873887
 478,Finland,FIN,Europe,Bangladesh,16,61.92411,25.748151,23.684994,90.356331
@@ -511,7 +511,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 509,Finland,FIN,Europe,Namibia,1,61.92411,25.748151,-22.95764,18.49041
 510,Finland,FIN,Europe,Nepal,3,61.92411,25.748151,28.394857,84.124008
 511,Finland,FIN,Europe,Nigeria,106,61.92411,25.748151,9.081999,8.675277
-512,Finland,FIN,Europe,Others,1,61.92411,25.748151,,
+512,Finland,FIN,Europe,Others,1,61.92411,25.748151,NaN,NaN
 513,Finland,FIN,Europe,Pakistan,2,61.92411,25.748151,30.375321,69.345116
 514,Finland,FIN,Europe,Peru,1,61.92411,25.748151,-9.189967,-75.015152
 515,Finland,FIN,Europe,Philippines,8,61.92411,25.748151,12.879721,121.774017
@@ -526,7 +526,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 524,Finland,FIN,Europe,Sri Lanka,3,61.92411,25.748151,7.873054,80.771797
 525,Finland,FIN,Europe,Thailand,48,61.92411,25.748151,15.870032,100.992541
 526,Finland,FIN,Europe,Togo,2,61.92411,25.748151,8.619543,0.824782
-527,Finland,FIN,Europe,Total,539,61.92411,25.748151,,
+527,Finland,FIN,Europe,Total,539,61.92411,25.748151,NaN,NaN
 528,Finland,FIN,Europe,Turkey,2,61.92411,25.748151,38.963745,35.243322
 529,Finland,FIN,Europe,Uganda,1,61.92411,25.748151,1.373333,32.290275
 530,Finland,FIN,Europe,Ukraine,8,61.92411,25.748151,48.379433,31.16558
@@ -572,7 +572,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 570,France,FRA,Europe,Mauritius,16,46.227638,2.213749,-20.348404,57.552152
 571,France,FRA,Europe,Morocco,151,46.227638,2.213749,31.791702,-7.09262
 572,France,FRA,Europe,Nigeria,440,46.227638,2.213749,9.081999,8.675277
-573,France,FRA,Europe,Others,144,46.227638,2.213749,,
+573,France,FRA,Europe,Others,144,46.227638,2.213749,NaN,NaN
 574,France,FRA,Europe,Paraguay,2,46.227638,2.213749,-23.442503,-58.443832
 575,France,FRA,Europe,Peru,26,46.227638,2.213749,-9.189967,-75.015152
 576,France,FRA,Europe,Poland,43,46.227638,2.213749,51.919438,19.145136
@@ -587,7 +587,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 585,France,FRA,Europe,Switzerland,1,46.227638,2.213749,46.818188,8.227512
 586,France,FRA,Europe,Thailand,17,46.227638,2.213749,15.870032,100.992541
 587,France,FRA,Europe,Togo,1,46.227638,2.213749,8.619543,0.824782
-588,France,FRA,Europe,Total,2948,46.227638,2.213749,,
+588,France,FRA,Europe,Total,2948,46.227638,2.213749,NaN,NaN
 589,France,FRA,Europe,Tunisia,2,46.227638,2.213749,33.886917,9.537499
 590,France,FRA,Europe,Ukraine,7,46.227638,2.213749,48.379433,31.16558
 591,France,FRA,Europe,United Kingdom,1,46.227638,2.213749,55.378051,-3.435973
@@ -603,7 +603,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 601,Gambia,GMB,Africa,Senegal,1,13.443182,-15.310139,14.497401,-14.452362
 602,Gambia,GMB,Africa,Sierra Leone,1,13.443182,-15.310139,8.460555,-11.779889
 603,Georgia,GEO,Asia,Georgia,2,42.315407,43.356892,42.315407,43.356892
-604,Georgia,GEO,Asia,Total,121,42.315407,43.356892,,
+604,Georgia,GEO,Asia,Total,121,42.315407,43.356892,NaN,NaN
 605,Georgia,GEO,Asia,Uzbekistan,2,42.315407,43.356892,41.377491,64.585262
 606,Germany,DEU,Europe,Afghanistan,31,51.165691,10.451526,33.93911,67.709953
 607,Germany,DEU,Europe,Albania,10,51.165691,10.451526,41.153332,20.168331
@@ -661,7 +661,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 659,Germany,DEU,Europe,Netherlands,2,51.165691,10.451526,52.132633,5.291266
 660,Germany,DEU,Europe,Nigeria,233,51.165691,10.451526,9.081999,8.675277
 661,Germany,DEU,Europe,Norway,1,51.165691,10.451526,60.472024,8.468946
-662,Germany,DEU,Europe,Others,11,51.165691,10.451526,,
+662,Germany,DEU,Europe,Others,11,51.165691,10.451526,NaN,NaN
 663,Germany,DEU,Europe,Pakistan,11,51.165691,10.451526,30.375321,69.345116
 664,Germany,DEU,Europe,Paraguay,1,51.165691,10.451526,-23.442503,-58.443832
 665,Germany,DEU,Europe,Peru,1,51.165691,10.451526,-9.189967,-75.015152
@@ -688,7 +688,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 686,Germany,DEU,Europe,Thailand,11,51.165691,10.451526,15.870032,100.992541
 687,Germany,DEU,Europe,The former Yugoslav Republic of Macedonia,6,51.165691,10.451526,41.608635,21.745275
 688,Germany,DEU,Europe,Togo,2,51.165691,10.451526,8.619543,0.824782
-689,Germany,DEU,Europe,Total,9878,51.165691,10.451526,,
+689,Germany,DEU,Europe,Total,9878,51.165691,10.451526,NaN,NaN
 690,Germany,DEU,Europe,Turkey,94,51.165691,10.451526,38.963745,35.243322
 691,Germany,DEU,Europe,Uganda,1,51.165691,10.451526,1.373333,32.290275
 692,Germany,DEU,Europe,Ukraine,64,51.165691,10.451526,48.379433,31.16558
@@ -725,7 +725,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 723,Greece,GRC,Europe,State of Palestine,1,39.074208,21.824312,31.952162,35.233154
 724,Greece,GRC,Europe,Sudan,1,39.074208,21.824312,12.862807,30.217636
 725,Greece,GRC,Europe,The former Yugoslav Republic of Macedonia,1,39.074208,21.824312,41.608635,21.745275
-726,Greece,GRC,Europe,Total,1413,39.074208,21.824312,,
+726,Greece,GRC,Europe,Total,1413,39.074208,21.824312,NaN,NaN
 727,Greece,GRC,Europe,Ukraine,5,39.074208,21.824312,48.379433,31.16558
 728,Greece,GRC,Europe,Uzbekistan,2,39.074208,21.824312,41.377491,64.585262
 729,Guatemala,GTM,Americas,Colombia,8,15.783471,-90.230759,4.570868,-74.297333
@@ -734,19 +734,19 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 732,Guatemala,GTM,Americas,Guatemala,749,15.783471,-90.230759,15.783471,-90.230759
 733,Guatemala,GTM,Americas,Honduras,27,15.783471,-90.230759,15.199999,-86.241905
 734,Guatemala,GTM,Americas,Nicaragua,55,15.783471,-90.230759,12.865416,-85.207229
-735,Guatemala,GTM,Americas,Total,2093,15.783471,-90.230759,,
-736,Guinea,GIN,Africa,Total,113,9.945587,-9.696645,,
+735,Guatemala,GTM,Americas,Total,2093,15.783471,-90.230759,NaN,NaN
+736,Guinea,GIN,Africa,Total,113,9.945587,-9.696645,NaN,NaN
 737,Guyana,GUY,Americas,Brazil,30,4.860416,-58.93018,-14.235004,-51.92528
 738,Guyana,GUY,Americas,Dominican Republic,18,4.860416,-58.93018,18.735693,-70.162651
 739,Guyana,GUY,Americas,Guyana,129,4.860416,-58.93018,4.860416,-58.93018
-740,Guyana,GUY,Americas,Others,11,4.860416,-58.93018,,
-741,Guyana,GUY,Americas,Total,357,4.860416,-58.93018,,
+740,Guyana,GUY,Americas,Others,11,4.860416,-58.93018,NaN,NaN
+741,Guyana,GUY,Americas,Total,357,4.860416,-58.93018,NaN,NaN
 742,Guyana,GUY,Americas,Venezuela (Bolivarian Republic of),2,4.860416,-58.93018,6.42375,-66.58973
 743,Honduras,HND,Americas,El Salvador,1,15.199999,-86.241905,13.794185,-88.89653
 744,Honduras,HND,Americas,Guatemala,1,15.199999,-86.241905,15.783471,-90.230759
 745,Honduras,HND,Americas,Honduras,142,15.199999,-86.241905,15.199999,-86.241905
 746,Honduras,HND,Americas,Nicaragua,2,15.199999,-86.241905,12.865416,-85.207229
-747,Honduras,HND,Americas,Total,282,15.199999,-86.241905,,
+747,Honduras,HND,Americas,Total,282,15.199999,-86.241905,NaN,NaN
 748,Hungary,HUN,Europe,China,6,47.162494,19.503304,35.86166,104.195397
 749,Hungary,HUN,Europe,Denmark,1,47.162494,19.503304,56.26392,9.501785
 750,Hungary,HUN,Europe,Hungary,208,47.162494,19.503304,47.162494,19.503304
@@ -755,13 +755,13 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 753,Hungary,HUN,Europe,Romania,5,47.162494,19.503304,45.943161,24.96676
 754,Hungary,HUN,Europe,Slovakia,2,47.162494,19.503304,48.669026,19.699024
 755,Hungary,HUN,Europe,Thailand,1,47.162494,19.503304,15.870032,100.992541
-756,Hungary,HUN,Europe,Total,2047,47.162494,19.503304,,
+756,Hungary,HUN,Europe,Total,2047,47.162494,19.503304,NaN,NaN
 757,Hungary,HUN,Europe,United Kingdom,1,47.162494,19.503304,55.378051,-3.435973
 758,Hungary,HUN,Europe,United States of America,1,47.162494,19.503304,37.09024,-95.712891
 759,Indonesia,IDN,Asia,Colombia,1,-0.789275,113.921327,4.570868,-74.297333
 760,Indonesia,IDN,Asia,Indonesia,2180,-0.789275,113.921327,-0.789275,113.921327
 761,Indonesia,IDN,Asia,Republic of Moldova,1,-0.789275,113.921327,47.411631,28.369885
-762,Indonesia,IDN,Asia,Total,3095,-0.789275,113.921327,,
+762,Indonesia,IDN,Asia,Total,3095,-0.789275,113.921327,NaN,NaN
 763,Indonesia,IDN,Asia,Ukraine,5,-0.789275,113.921327,48.379433,31.16558
 764,Indonesia,IDN,Asia,Uzbekistan,9,-0.789275,113.921327,41.377491,64.585262
 765,Ireland,IRL,Europe,Albania,5,53.41291,-8.24389,41.153332,20.168331
@@ -804,7 +804,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 802,Ireland,IRL,Europe,South Africa,6,53.41291,-8.24389,-30.559482,22.937506
 803,Ireland,IRL,Europe,Thailand,1,53.41291,-8.24389,15.870032,100.992541
 804,Ireland,IRL,Europe,Togo,1,53.41291,-8.24389,8.619543,0.824782
-805,Ireland,IRL,Europe,Total,512,53.41291,-8.24389,,
+805,Ireland,IRL,Europe,Total,512,53.41291,-8.24389,NaN,NaN
 806,Ireland,IRL,Europe,Uganda,1,53.41291,-8.24389,1.373333,32.290275
 807,Ireland,IRL,Europe,Ukraine,1,53.41291,-8.24389,48.379433,31.16558
 808,Ireland,IRL,Europe,Vietnam,2,53.41291,-8.24389,14.058324,108.277199
@@ -834,7 +834,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 832,Israel,ISR,Asia,State of Palestine,1,31.046051,34.851612,31.952162,35.233154
 833,Israel,ISR,Asia,Sudan,2,31.046051,34.851612,12.862807,30.217636
 834,Israel,ISR,Asia,Thailand,135,31.046051,34.851612,15.870032,100.992541
-835,Israel,ISR,Asia,Total,794,31.046051,34.851612,,
+835,Israel,ISR,Asia,Total,794,31.046051,34.851612,NaN,NaN
 836,Israel,ISR,Asia,Ukraine,35,31.046051,34.851612,48.379433,31.16558
 837,Israel,ISR,Asia,Uzbekistan,2,31.046051,34.851612,41.377491,64.585262
 838,Israel,ISR,Asia,Vietnam,1,31.046051,34.851612,14.058324,108.277199
@@ -858,7 +858,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 856,Italy,ITA,Europe,Latvia,1,41.87194,12.56738,56.879635,24.603189
 857,Italy,ITA,Europe,Morocco,67,41.87194,12.56738,31.791702,-7.09262
 858,Italy,ITA,Europe,Nigeria,593,41.87194,12.56738,9.081999,8.675277
-859,Italy,ITA,Europe,Others,29,41.87194,12.56738,,
+859,Italy,ITA,Europe,Others,29,41.87194,12.56738,NaN,NaN
 860,Italy,ITA,Europe,Pakistan,28,41.87194,12.56738,30.375321,69.345116
 861,Italy,ITA,Europe,Philippines,1,41.87194,12.56738,12.879721,121.774017
 862,Italy,ITA,Europe,Poland,26,41.87194,12.56738,51.919438,19.145136
@@ -871,7 +871,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 869,Italy,ITA,Europe,Sudan,1,41.87194,12.56738,12.862807,30.217636
 870,Italy,ITA,Europe,Thailand,16,41.87194,12.56738,15.870032,100.992541
 871,Italy,ITA,Europe,The former Yugoslav Republic of Macedonia,9,41.87194,12.56738,41.608635,21.745275
-872,Italy,ITA,Europe,Total,5349,41.87194,12.56738,,
+872,Italy,ITA,Europe,Total,5349,41.87194,12.56738,NaN,NaN
 873,Italy,ITA,Europe,Tunisia,14,41.87194,12.56738,33.886917,9.537499
 874,Italy,ITA,Europe,Ukraine,6,41.87194,12.56738,48.379433,31.16558
 875,Jamaica,JAM,Americas,China,1,18.109581,-77.297508,35.86166,104.195397
@@ -883,7 +883,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 881,Jamaica,JAM,Americas,Jamaica,4,18.109581,-77.297508,18.109581,-77.297508
 882,Jamaica,JAM,Americas,Myanmar,1,18.109581,-77.297508,21.913965,95.956223
 883,Jamaica,JAM,Americas,Panama,1,18.109581,-77.297508,8.537981,-80.782127
-884,Jamaica,JAM,Americas,Total,45,18.109581,-77.297508,,
+884,Jamaica,JAM,Americas,Total,45,18.109581,-77.297508,NaN,NaN
 885,Japan,JPN,Asia,Bangladesh,1,36.204824,138.252924,23.684994,90.356331
 886,Japan,JPN,Asia,Cambodia,7,36.204824,138.252924,12.565679,104.990963
 887,Japan,JPN,Asia,China,4,36.204824,138.252924,35.86166,104.195397
@@ -895,7 +895,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 893,Japan,JPN,Asia,Rwanda,1,36.204824,138.252924,-1.940278,29.873888
 894,Japan,JPN,Asia,Sri Lanka,1,36.204824,138.252924,7.873054,80.771797
 895,Japan,JPN,Asia,Thailand,67,36.204824,138.252924,15.870032,100.992541
-896,Japan,JPN,Asia,Total,519,36.204824,138.252924,,
+896,Japan,JPN,Asia,Total,519,36.204824,138.252924,NaN,NaN
 897,Japan,JPN,Asia,Vietnam,1,36.204824,138.252924,14.058324,108.277199
 898,Jordan,JOR,Asia,Bangladesh,20,30.585164,36.238414,23.684994,90.356331
 899,Jordan,JOR,Asia,Egypt,5,30.585164,36.238414,26.820553,30.802498
@@ -904,7 +904,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 902,Jordan,JOR,Asia,Philippines,1,30.585164,36.238414,12.879721,121.774017
 903,Jordan,JOR,Asia,Sri Lanka,5,30.585164,36.238414,7.873054,80.771797
 904,Jordan,JOR,Asia,Syrian Arab Republic,1,30.585164,36.238414,34.802075,38.996815
-905,Jordan,JOR,Asia,Total,329,30.585164,36.238414,,
+905,Jordan,JOR,Asia,Total,329,30.585164,36.238414,NaN,NaN
 906,Kazakhstan,KAZ,Asia,China,1,48.019573,66.923684,35.86166,104.195397
 907,Kazakhstan,KAZ,Asia,Kazakhstan,349,48.019573,66.923684,48.019573,66.923684
 908,Kazakhstan,KAZ,Asia,Kyrgyzstan,35,48.019573,66.923684,41.20438,74.766098
@@ -914,12 +914,12 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 912,Kazakhstan,KAZ,Asia,Republic of Moldova,3,48.019573,66.923684,47.411631,28.369885
 913,Kazakhstan,KAZ,Asia,Russian Federation,5,48.019573,66.923684,61.52401,105.318756
 914,Kazakhstan,KAZ,Asia,Tajikistan,15,48.019573,66.923684,38.861034,71.276093
-915,Kazakhstan,KAZ,Asia,Total,428,48.019573,66.923684,,
+915,Kazakhstan,KAZ,Asia,Total,428,48.019573,66.923684,NaN,NaN
 916,Kazakhstan,KAZ,Asia,Turkmenistan,1,48.019573,66.923684,38.969719,59.556278
 917,Kazakhstan,KAZ,Asia,Ukraine,2,48.019573,66.923684,48.379433,31.16558
 918,Kazakhstan,KAZ,Asia,Uzbekistan,241,48.019573,66.923684,41.377491,64.585262
 919,Kenya,KEN,Africa,Rwanda,1,-0.023559,37.906193,-1.940278,29.873888
-920,Kenya,KEN,Africa,Total,1000,-0.023559,37.906193,,
+920,Kenya,KEN,Africa,Total,1000,-0.023559,37.906193,NaN,NaN
 921,Kenya,KEN,Africa,Uganda,1,-0.023559,37.906193,1.373333,32.290275
 922,Kenya,KEN,Africa,United Republic of Tanzania,1,-0.023559,37.906193,-6.369028,34.888822
 923,Kosovo under UNSCR 1244,RKS,Europe,Latvia,18,42.602636,20.902977,56.879635,24.603189
@@ -932,15 +932,15 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 930,Kuwait,KWT,Asia,Sierra Leone,1,29.31166,47.481766,8.460555,-11.779889
 931,Kuwait,KWT,Asia,Sri Lanka,1,29.31166,47.481766,7.873054,80.771797
 932,Kuwait,KWT,Asia,Togo,1,29.31166,47.481766,8.619543,0.824782
-933,Kuwait,KWT,Asia,Total,18,29.31166,47.481766,,
+933,Kuwait,KWT,Asia,Total,18,29.31166,47.481766,NaN,NaN
 934,Kyrgyzstan,KGZ,Asia,Kyrgyzstan,295,41.20438,74.766098,41.20438,74.766098
-935,Kyrgyzstan,KGZ,Asia,Total,538,41.20438,74.766098,,
-936,Lao People's Democratic Republic,LAO,Asia,Total,1723,19.85627,102.495496,,
+935,Kyrgyzstan,KGZ,Asia,Total,538,41.20438,74.766098,NaN,NaN
+936,Lao People's Democratic Republic,LAO,Asia,Total,1723,19.85627,102.495496,NaN,NaN
 937,Latvia,LVA,Europe,Latvia,51,56.879635,24.603189,56.879635,24.603189
 938,Latvia,LVA,Europe,Lithuania,1,56.879635,24.603189,55.169438,23.881275
 939,Latvia,LVA,Europe,Tajikistan,1,56.879635,24.603189,38.861034,71.276093
 940,Latvia,LVA,Europe,Thailand,1,56.879635,24.603189,15.870032,100.992541
-941,Latvia,LVA,Europe,Total,215,56.879635,24.603189,,
+941,Latvia,LVA,Europe,Total,215,56.879635,24.603189,NaN,NaN
 942,Lebanon,LBN,Asia,Bangladesh,16,33.854721,35.862285,23.684994,90.356331
 943,Lebanon,LBN,Asia,Belarus,1,33.854721,35.862285,53.709807,27.953389
 944,Lebanon,LBN,Asia,Cameroon,1,33.854721,35.862285,7.369722,12.354722
@@ -951,14 +951,14 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 949,Lebanon,LBN,Asia,Madagascar,2,33.854721,35.862285,-18.766947,46.869107
 950,Lebanon,LBN,Asia,Morocco,1,33.854721,35.862285,31.791702,-7.09262
 951,Lebanon,LBN,Asia,Nepal,8,33.854721,35.862285,28.394857,84.124008
-952,Lebanon,LBN,Asia,Others,1,33.854721,35.862285,,
+952,Lebanon,LBN,Asia,Others,1,33.854721,35.862285,NaN,NaN
 953,Lebanon,LBN,Asia,Philippines,20,33.854721,35.862285,12.879721,121.774017
 954,Lebanon,LBN,Asia,Republic of Moldova,1,33.854721,35.862285,47.411631,28.369885
 955,Lebanon,LBN,Asia,Sri Lanka,7,33.854721,35.862285,7.873054,80.771797
 956,Lebanon,LBN,Asia,State of Palestine,2,33.854721,35.862285,31.952162,35.233154
 957,Lebanon,LBN,Asia,Syrian Arab Republic,128,33.854721,35.862285,34.802075,38.996815
 958,Lebanon,LBN,Asia,Togo,1,33.854721,35.862285,8.619543,0.824782
-959,Lebanon,LBN,Asia,Total,276,33.854721,35.862285,,
+959,Lebanon,LBN,Asia,Total,276,33.854721,35.862285,NaN,NaN
 960,Lebanon,LBN,Asia,Tunisia,1,33.854721,35.862285,33.886917,9.537499
 961,Lesotho,LSO,Africa,Ethiopia,1,-29.609988,28.233608,9.145,40.489673
 962,Lesotho,LSO,Africa,India,1,-29.609988,28.233608,20.593684,78.96288
@@ -967,17 +967,17 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 965,Lesotho,LSO,Africa,Nigeria,1,-29.609988,28.233608,9.081999,8.675277
 966,Lesotho,LSO,Africa,Pakistan,1,-29.609988,28.233608,30.375321,69.345116
 967,Lesotho,LSO,Africa,South Africa,2,-29.609988,28.233608,-30.559482,22.937506
-968,Lesotho,LSO,Africa,Total,36,-29.609988,28.233608,,
+968,Lesotho,LSO,Africa,Total,36,-29.609988,28.233608,NaN,NaN
 969,Lesotho,LSO,Africa,Zimbabwe,1,-29.609988,28.233608,-19.015438,29.154857
 970,Liberia,LBR,Africa,Morocco,5,6.428055,-9.429499,31.791702,-7.09262
-971,Liberia,LBR,Africa,Total,48,6.428055,-9.429499,,
+971,Liberia,LBR,Africa,Total,48,6.428055,-9.429499,NaN,NaN
 972,Liberia,LBR,Africa,Tunisia,1,6.428055,-9.429499,33.886917,9.537499
 973,Lithuania,LTU,Europe,Colombia,1,55.169438,23.881275,4.570868,-74.297333
 974,Lithuania,LTU,Europe,Latvia,1,55.169438,23.881275,56.879635,24.603189
 975,Lithuania,LTU,Europe,Lithuania,135,55.169438,23.881275,55.169438,23.881275
 976,Lithuania,LTU,Europe,Poland,1,55.169438,23.881275,51.919438,19.145136
 977,Lithuania,LTU,Europe,Russian Federation,1,55.169438,23.881275,61.52401,105.318756
-978,Lithuania,LTU,Europe,Total,305,55.169438,23.881275,,
+978,Lithuania,LTU,Europe,Total,305,55.169438,23.881275,NaN,NaN
 979,Luxembourg,LUX,Europe,Albania,8,49.815273,6.129583,41.153332,20.168331
 980,Luxembourg,LUX,Europe,Bangladesh,1,49.815273,6.129583,23.684994,90.356331
 981,Luxembourg,LUX,Europe,Brazil,4,49.815273,6.129583,-14.235004,-51.92528
@@ -994,9 +994,9 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 992,Luxembourg,LUX,Europe,Philippines,1,49.815273,6.129583,12.879721,121.774017
 993,Luxembourg,LUX,Europe,Republic of Moldova,2,49.815273,6.129583,47.411631,28.369885
 994,Luxembourg,LUX,Europe,Romania,9,49.815273,6.129583,45.943161,24.96676
-995,Luxembourg,LUX,Europe,Total,55,49.815273,6.129583,,
+995,Luxembourg,LUX,Europe,Total,55,49.815273,6.129583,NaN,NaN
 996,Luxembourg,LUX,Europe,Ukraine,2,49.815273,6.129583,48.379433,31.16558
-997,Malawi,MWI,Africa,Total,367,-13.254308,34.301525,,
+997,Malawi,MWI,Africa,Total,367,-13.254308,34.301525,NaN,NaN
 998,Malaysia,MYS,Asia,Bangladesh,54,4.210484,101.975766,23.684994,90.356331
 999,Malaysia,MYS,Asia,Cambodia,286,4.210484,101.975766,12.565679,104.990963
 1000,Malaysia,MYS,Asia,China,41,4.210484,101.975766,35.86166,104.195397
@@ -1008,12 +1008,12 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1006,Malaysia,MYS,Asia,Myanmar,65,4.210484,101.975766,21.913965,95.956223
 1007,Malaysia,MYS,Asia,Nepal,1,4.210484,101.975766,28.394857,84.124008
 1008,Malaysia,MYS,Asia,Nigeria,11,4.210484,101.975766,9.081999,8.675277
-1009,Malaysia,MYS,Asia,Others,40,4.210484,101.975766,,
+1009,Malaysia,MYS,Asia,Others,40,4.210484,101.975766,NaN,NaN
 1010,Malaysia,MYS,Asia,Philippines,191,4.210484,101.975766,12.879721,121.774017
 1011,Malaysia,MYS,Asia,Rwanda,1,4.210484,101.975766,-1.940278,29.873888
 1012,Malaysia,MYS,Asia,Sri Lanka,5,4.210484,101.975766,7.873054,80.771797
 1013,Malaysia,MYS,Asia,Thailand,226,4.210484,101.975766,15.870032,100.992541
-1014,Malaysia,MYS,Asia,Total,1703,4.210484,101.975766,,
+1014,Malaysia,MYS,Asia,Total,1703,4.210484,101.975766,NaN,NaN
 1015,Malaysia,MYS,Asia,Uganda,1,4.210484,101.975766,1.373333,32.290275
 1016,Malaysia,MYS,Asia,Uzbekistan,1,4.210484,101.975766,41.377491,64.585262
 1017,Malaysia,MYS,Asia,Vietnam,380,4.210484,101.975766,14.058324,108.277199
@@ -1023,7 +1023,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1021,Maldives,MDV,Asia,Kenya,1,3.202778,73.22068,-0.023559,37.906193
 1022,Maldives,MDV,Asia,Sri Lanka,1,3.202778,73.22068,7.873054,80.771797
 1023,Maldives,MDV,Asia,Syrian Arab Republic,22,3.202778,73.22068,34.802075,38.996815
-1024,Maldives,MDV,Asia,Total,12,3.202778,73.22068,,
+1024,Maldives,MDV,Asia,Total,12,3.202778,73.22068,NaN,NaN
 1025,Mali,MLI,Africa,Burkina Faso,1,17.570692,-3.996166,12.238333,-1.561593
 1026,Malta,MLT,Europe,China,8,35.937496,14.375416,35.86166,104.195397
 1027,Malta,MLT,Europe,Indonesia,1,35.937496,14.375416,-0.789275,113.921327
@@ -1032,7 +1032,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1030,Malta,MLT,Europe,Romania,2,35.937496,14.375416,45.943161,24.96676
 1031,Malta,MLT,Europe,Russian Federation,6,35.937496,14.375416,61.52401,105.318756
 1032,Malta,MLT,Europe,Sri Lanka,1,35.937496,14.375416,7.873054,80.771797
-1033,Malta,MLT,Europe,Total,73,35.937496,14.375416,,
+1033,Malta,MLT,Europe,Total,73,35.937496,14.375416,NaN,NaN
 1034,Malta,MLT,Europe,Ukraine,1,35.937496,14.375416,48.379433,31.16558
 1035,Malta,MLT,Europe,Vietnam,9,35.937496,14.375416,14.058324,108.277199
 1036,Mauritania,MRT,Africa,Mauritania,5,21.00789,-10.940835,21.00789,-10.940835
@@ -1040,7 +1040,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1038,Mauritius,MUS,Africa,Madagascar,1,-20.348404,57.552152,-18.766947,46.869107
 1039,Mauritius,MUS,Africa,Mauritius,120,-20.348404,57.552152,-20.348404,57.552152
 1040,Mauritius,MUS,Africa,Nepal,1,-20.348404,57.552152,28.394857,84.124008
-1041,Mauritius,MUS,Africa,Total,125,-20.348404,57.552152,,
+1041,Mauritius,MUS,Africa,Total,125,-20.348404,57.552152,NaN,NaN
 1042,Mexico,MEX,Americas,Argentina,2,23.634501,-102.552784,-38.416097,-63.616672
 1043,Mexico,MEX,Americas,Brazil,1,23.634501,-102.552784,-14.235004,-51.92528
 1044,Mexico,MEX,Americas,China,11,23.634501,-102.552784,35.86166,104.195397
@@ -1056,7 +1056,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1054,Mexico,MEX,Americas,Peru,1,23.634501,-102.552784,-9.189967,-75.015152
 1055,Mexico,MEX,Americas,Republic of Korea,1,23.634501,-102.552784,35.907757,127.766922
 1056,Mexico,MEX,Americas,Spain,1,23.634501,-102.552784,40.463667,-3.74922
-1057,Mexico,MEX,Americas,Total,4796,23.634501,-102.552784,,
+1057,Mexico,MEX,Americas,Total,4796,23.634501,-102.552784,NaN,NaN
 1058,Mexico,MEX,Americas,Venezuela (Bolivarian Republic of),3,23.634501,-102.552784,6.42375,-66.58973
 1059,Monaco,MCO,Europe,Brazil,3,43.750298,7.412841,-14.235004,-51.92528
 1060,Monaco,MCO,Europe,Cameroon,1,43.750298,7.412841,7.369722,12.354722
@@ -1068,29 +1068,29 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1066,Monaco,MCO,Europe,Romania,1,43.750298,7.412841,45.943161,24.96676
 1067,Monaco,MCO,Europe,Russian Federation,2,43.750298,7.412841,61.52401,105.318756
 1068,Monaco,MCO,Europe,Spain,1,43.750298,7.412841,40.463667,-3.74922
-1069,Monaco,MCO,Europe,Total,18,43.750298,7.412841,,
+1069,Monaco,MCO,Europe,Total,18,43.750298,7.412841,NaN,NaN
 1070,Monaco,MCO,Europe,Ukraine,1,43.750298,7.412841,48.379433,31.16558
 1071,Mongolia,MNG,Asia,Mongolia,169,46.862496,103.846656,46.862496,103.846656
-1072,Mongolia,MNG,Asia,Total,552,46.862496,103.846656,,
+1072,Mongolia,MNG,Asia,Total,552,46.862496,103.846656,NaN,NaN
 1073,Montenegro,MNE,Europe,Bosnia and Herzegovina,1,42.708678,19.37439,43.915886,17.679076
 1074,Montenegro,MNE,Europe,Kosovo under UNSCR 1244,3,42.708678,19.37439,42.602636,20.902977
 1075,Montenegro,MNE,Europe,Montenegro,3,42.708678,19.37439,42.708678,19.37439
 1076,Montenegro,MNE,Europe,Serbia,2,42.708678,19.37439,44.016521,21.005859
-1077,Montenegro,MNE,Europe,Total,45,42.708678,19.37439,,
+1077,Montenegro,MNE,Europe,Total,45,42.708678,19.37439,NaN,NaN
 1078,Morocco,MAR,Africa,Morocco,11,31.791702,-7.09262,31.791702,-7.09262
-1079,Morocco,MAR,Africa,Total,11,31.791702,-7.09262,,
+1079,Morocco,MAR,Africa,Total,11,31.791702,-7.09262,NaN,NaN
 1080,Mozambique,MOZ,Africa,Mozambique,1,-18.665695,35.529562,-18.665695,35.529562
 1081,Mozambique,MOZ,Africa,South Africa,1,-18.665695,35.529562,-30.559482,22.937506
 1082,Mozambique,MOZ,Africa,Swaziland,1,-18.665695,35.529562,-26.522503,31.465866
-1083,Mozambique,MOZ,Africa,Total,86,-18.665695,35.529562,,
+1083,Mozambique,MOZ,Africa,Total,86,-18.665695,35.529562,NaN,NaN
 1084,Myanmar,MMR,Asia,China,196,21.913965,95.956223,35.86166,104.195397
 1085,Myanmar,MMR,Asia,Malaysia,19,21.913965,95.956223,4.210484,101.975766
 1086,Myanmar,MMR,Asia,Myanmar,59,21.913965,95.956223,21.913965,95.956223
 1087,Myanmar,MMR,Asia,Thailand,26,21.913965,95.956223,15.870032,100.992541
-1088,Myanmar,MMR,Asia,Total,3644,21.913965,95.956223,,
-1089,Namibia,NAM,Africa,Total,2,-22.95764,18.49041,,
+1088,Myanmar,MMR,Asia,Total,3644,21.913965,95.956223,NaN,NaN
+1089,Namibia,NAM,Africa,Total,2,-22.95764,18.49041,NaN,NaN
 1090,Nepal,NPL,Asia,Nepal,378,28.394857,84.124008,28.394857,84.124008
-1091,Nepal,NPL,Asia,Total,1947,28.394857,84.124008,,
+1091,Nepal,NPL,Asia,Total,1947,28.394857,84.124008,NaN,NaN
 1092,Netherlands,NLD,Europe,Afghanistan,48,52.132633,5.291266,33.93911,67.709953
 1093,Netherlands,NLD,Europe,Albania,37,52.132633,5.291266,41.153332,20.168331
 1094,Netherlands,NLD,Europe,Algeria,4,52.132633,5.291266,28.033886,1.659626
@@ -1173,7 +1173,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1171,Netherlands,NLD,Europe,Niger,1,52.132633,5.291266,17.607789,8.081666
 1172,Netherlands,NLD,Europe,Nigeria,813,52.132633,5.291266,9.081999,8.675277
 1173,Netherlands,NLD,Europe,Oman,1,52.132633,5.291266,21.512583,55.923255
-1174,Netherlands,NLD,Europe,Others,103,52.132633,5.291266,,
+1174,Netherlands,NLD,Europe,Others,103,52.132633,5.291266,NaN,NaN
 1175,Netherlands,NLD,Europe,Pakistan,14,52.132633,5.291266,30.375321,69.345116
 1176,Netherlands,NLD,Europe,Peru,5,52.132633,5.291266,-9.189967,-75.015152
 1177,Netherlands,NLD,Europe,Philippines,155,52.132633,5.291266,12.879721,121.774017
@@ -1201,7 +1201,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1199,Netherlands,NLD,Europe,Thailand,38,52.132633,5.291266,15.870032,100.992541
 1200,Netherlands,NLD,Europe,The former Yugoslav Republic of Macedonia,39,52.132633,5.291266,41.608635,21.745275
 1201,Netherlands,NLD,Europe,Togo,7,52.132633,5.291266,8.619543,0.824782
-1202,Netherlands,NLD,Europe,Total,13785,52.132633,5.291266,,
+1202,Netherlands,NLD,Europe,Total,13785,52.132633,5.291266,NaN,NaN
 1203,Netherlands,NLD,Europe,Trinidad and Tobago,1,52.132633,5.291266,10.691803,-61.222503
 1204,Netherlands,NLD,Europe,Tunisia,5,52.132633,5.291266,33.886917,9.537499
 1205,Netherlands,NLD,Europe,Turkey,23,52.132633,5.291266,38.963745,35.243322
@@ -1220,11 +1220,11 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1218,New Zealand,NZL,Oceania,Fiji,17,-40.900557,174.885971,-16.578193,179.414413
 1219,New Zealand,NZL,Oceania,India,18,-40.900557,174.885971,20.593684,78.96288
 1220,New Zealand,NZL,Oceania,Samoa,1,-40.900557,174.885971,-13.759029,-172.104629
-1221,New Zealand,NZL,Oceania,Total,38,-40.900557,174.885971,,
-1222,Nicaragua,NIC,Americas,Total,354,12.865416,-85.207229,,
+1221,New Zealand,NZL,Oceania,Total,38,-40.900557,174.885971,NaN,NaN
+1222,Nicaragua,NIC,Americas,Total,354,12.865416,-85.207229,NaN,NaN
 1223,Niger,NER,Africa,Cameroon,6,17.607789,8.081666,7.369722,12.354722
 1224,Niger,NER,Africa,Niger,64,17.607789,8.081666,17.607789,8.081666
-1225,Niger,NER,Africa,Total,181,17.607789,8.081666,,
+1225,Niger,NER,Africa,Total,181,17.607789,8.081666,NaN,NaN
 1226,Nigeria,NGA,Africa,Benin,361,9.081999,8.675277,9.30769,2.315834
 1227,Nigeria,NGA,Africa,Burkina Faso,35,9.081999,8.675277,12.238333,-1.561593
 1228,Nigeria,NGA,Africa,Cameroon,21,9.081999,8.675277,7.369722,12.354722
@@ -1245,7 +1245,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1243,Nigeria,NGA,Africa,Senegal,2,9.081999,8.675277,14.497401,-14.452362
 1244,Nigeria,NGA,Africa,Sierra Leone,4,9.081999,8.675277,8.460555,-11.779889
 1245,Nigeria,NGA,Africa,Togo,205,9.081999,8.675277,8.619543,0.824782
-1246,Nigeria,NGA,Africa,Total,11537,9.081999,8.675277,,
+1246,Nigeria,NGA,Africa,Total,11537,9.081999,8.675277,NaN,NaN
 1247,Nigeria,NGA,Africa,United States of America,1,9.081999,8.675277,37.09024,-95.712891
 1248,Nigeria,NGA,Africa,Yemen,10,9.081999,8.675277,15.552727,48.516388
 1249,Nigeria,NGA,Africa,Zambia,1,9.081999,8.675277,-13.133897,27.849332
@@ -1289,7 +1289,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1287,Norway,NOR,Europe,Sudan,3,60.472024,8.468946,12.862807,30.217636
 1288,Norway,NOR,Europe,Syrian Arab Republic,1,60.472024,8.468946,34.802075,38.996815
 1289,Norway,NOR,Europe,Thailand,6,60.472024,8.468946,15.870032,100.992541
-1290,Norway,NOR,Europe,Total,2159,60.472024,8.468946,,
+1290,Norway,NOR,Europe,Total,2159,60.472024,8.468946,NaN,NaN
 1291,Norway,NOR,Europe,Tunisia,3,60.472024,8.468946,33.886917,9.537499
 1292,Norway,NOR,Europe,Uganda,9,60.472024,8.468946,1.373333,32.290275
 1293,Norway,NOR,Europe,Ukraine,13,60.472024,8.468946,48.379433,31.16558
@@ -1299,10 +1299,10 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1297,Oman,OMN,Asia,Indonesia,1,21.512583,55.923255,-0.789275,113.921327
 1298,Oman,OMN,Asia,Morocco,2,21.512583,55.923255,31.791702,-7.09262
 1299,Oman,OMN,Asia,Nepal,1,21.512583,55.923255,28.394857,84.124008
-1300,Oman,OMN,Asia,Total,134,21.512583,55.923255,,
+1300,Oman,OMN,Asia,Total,134,21.512583,55.923255,NaN,NaN
 1301,Palau,PLW,Oceania,China,9,7.51498,134.58252,35.86166,104.195397
 1302,Palau,PLW,Oceania,Philippines,7,7.51498,134.58252,12.879721,121.774017
-1303,Palau,PLW,Oceania,Total,16,7.51498,134.58252,,
+1303,Palau,PLW,Oceania,Total,16,7.51498,134.58252,NaN,NaN
 1304,Panama,PAN,Americas,Belarus,1,8.537981,-80.782127,53.709807,27.953389
 1305,Panama,PAN,Americas,Colombia,92,8.537981,-80.782127,4.570868,-74.297333
 1306,Panama,PAN,Americas,Costa Rica,1,8.537981,-80.782127,9.748917,-83.753428
@@ -1311,11 +1311,11 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1309,Panama,PAN,Americas,Honduras,1,8.537981,-80.782127,15.199999,-86.241905
 1310,Panama,PAN,Americas,Lebanon,1,8.537981,-80.782127,33.854721,35.862285
 1311,Panama,PAN,Americas,Nicaragua,17,8.537981,-80.782127,12.865416,-85.207229
-1312,Panama,PAN,Americas,Others,7,8.537981,-80.782127,,
+1312,Panama,PAN,Americas,Others,7,8.537981,-80.782127,NaN,NaN
 1313,Panama,PAN,Americas,Panama,5,8.537981,-80.782127,8.537981,-80.782127
 1314,Panama,PAN,Americas,Peru,1,8.537981,-80.782127,-9.189967,-75.015152
 1315,Panama,PAN,Americas,Russian Federation,1,8.537981,-80.782127,61.52401,105.318756
-1316,Panama,PAN,Americas,Total,193,8.537981,-80.782127,,
+1316,Panama,PAN,Americas,Total,193,8.537981,-80.782127,NaN,NaN
 1317,Panama,PAN,Americas,Ukraine,1,8.537981,-80.782127,48.379433,31.16558
 1318,Panama,PAN,Americas,Venezuela (Bolivarian Republic of),67,8.537981,-80.782127,6.42375,-66.58973
 1319,Paraguay,PRY,Americas,Argentina,2,-23.442503,-58.443832,-38.416097,-63.616672
@@ -1329,7 +1329,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1327,Paraguay,PRY,Americas,Republic of Korea,1,-23.442503,-58.443832,35.907757,127.766922
 1328,Paraguay,PRY,Americas,Sweden,1,-23.442503,-58.443832,60.128161,18.643501
 1329,Paraguay,PRY,Americas,Thailand,1,-23.442503,-58.443832,15.870032,100.992541
-1330,Paraguay,PRY,Americas,Total,945,-23.442503,-58.443832,,
+1330,Paraguay,PRY,Americas,Total,945,-23.442503,-58.443832,NaN,NaN
 1331,Peru,PER,Americas,Argentina,2,-9.189967,-75.015152,-38.416097,-63.616672
 1332,Peru,PER,Americas,Bangladesh,1,-9.189967,-75.015152,23.684994,90.356331
 1333,Peru,PER,Americas,Bolivia (Plurinational State of),2,-9.189967,-75.015152,-16.290154,-63.588653
@@ -1344,13 +1344,13 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1342,Peru,PER,Americas,Peru,2901,-9.189967,-75.015152,-9.189967,-75.015152
 1343,Peru,PER,Americas,Philippines,1,-9.189967,-75.015152,12.879721,121.774017
 1344,Peru,PER,Americas,Senegal,1,-9.189967,-75.015152,14.497401,-14.452362
-1345,Peru,PER,Americas,Total,4330,-9.189967,-75.015152,,
+1345,Peru,PER,Americas,Total,4330,-9.189967,-75.015152,NaN,NaN
 1346,Peru,PER,Americas,United Republic of Tanzania,1,-9.189967,-75.015152,-6.369028,34.888822
 1347,Peru,PER,Americas,Venezuela (Bolivarian Republic of),1,-9.189967,-75.015152,6.42375,-66.58973
 1348,Philippines,PHL,Asia,China,14,12.879721,121.774017,35.86166,104.195397
 1349,Philippines,PHL,Asia,Indonesia,42,12.879721,121.774017,-0.789275,113.921327
 1350,Philippines,PHL,Asia,Philippines,2970,12.879721,121.774017,12.879721,121.774017
-1351,Philippines,PHL,Asia,Total,6445,12.879721,121.774017,,
+1351,Philippines,PHL,Asia,Total,6445,12.879721,121.774017,NaN,NaN
 1352,Philippines,PHL,Asia,Ukraine,1,12.879721,121.774017,48.379433,31.16558
 1353,Poland,POL,Europe,Bangladesh,7,51.919438,19.145136,23.684994,90.356331
 1354,Poland,POL,Europe,Belarus,2,51.919438,19.145136,53.709807,27.953389
@@ -1371,7 +1371,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1369,Poland,POL,Europe,Slovakia,1,51.919438,19.145136,48.669026,19.699024
 1370,Poland,POL,Europe,Sri Lanka,22,51.919438,19.145136,7.873054,80.771797
 1371,Poland,POL,Europe,The former Yugoslav Republic of Macedonia,15,51.919438,19.145136,41.608635,21.745275
-1372,Poland,POL,Europe,Total,2556,51.919438,19.145136,,
+1372,Poland,POL,Europe,Total,2556,51.919438,19.145136,NaN,NaN
 1373,Poland,POL,Europe,Ukraine,315,51.919438,19.145136,48.379433,31.16558
 1374,Poland,POL,Europe,Vietnam,39,51.919438,19.145136,14.058324,108.277199
 1375,Poland,POL,Europe,Zimbabwe,1,51.919438,19.145136,-19.015438,29.154857
@@ -1386,13 +1386,13 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1384,Portugal,PRT,Europe,Mozambique,16,39.399872,-8.224454,-18.665695,35.529562
 1385,Portugal,PRT,Europe,Nepal,40,39.399872,-8.224454,28.394857,84.124008
 1386,Portugal,PRT,Europe,Nigeria,26,39.399872,-8.224454,9.081999,8.675277
-1387,Portugal,PRT,Europe,Others,13,39.399872,-8.224454,,
+1387,Portugal,PRT,Europe,Others,13,39.399872,-8.224454,NaN,NaN
 1388,Portugal,PRT,Europe,Pakistan,5,39.399872,-8.224454,30.375321,69.345116
 1389,Portugal,PRT,Europe,Portugal,76,39.399872,-8.224454,39.399872,-8.224454
 1390,Portugal,PRT,Europe,Romania,198,39.399872,-8.224454,45.943161,24.96676
 1391,Portugal,PRT,Europe,Senegal,1,39.399872,-8.224454,14.497401,-14.452362
 1392,Portugal,PRT,Europe,Sudan,1,39.399872,-8.224454,12.862807,30.217636
-1393,Portugal,PRT,Europe,Total,432,39.399872,-8.224454,,
+1393,Portugal,PRT,Europe,Total,432,39.399872,-8.224454,NaN,NaN
 1394,Portugal,PRT,Europe,Ukraine,2,39.399872,-8.224454,48.379433,31.16558
 1395,Qatar,QAT,Asia,Algeria,1,25.354826,51.183884,28.033886,1.659626
 1396,Qatar,QAT,Asia,Bangladesh,1,25.354826,51.183884,23.684994,90.356331
@@ -1412,13 +1412,13 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1410,Qatar,QAT,Asia,Sri Lanka,2,25.354826,51.183884,7.873054,80.771797
 1411,Qatar,QAT,Asia,Sudan,3,25.354826,51.183884,12.862807,30.217636
 1412,Qatar,QAT,Asia,Syrian Arab Republic,5,25.354826,51.183884,34.802075,38.996815
-1413,Qatar,QAT,Asia,Total,550,25.354826,51.183884,,
+1413,Qatar,QAT,Asia,Total,550,25.354826,51.183884,NaN,NaN
 1414,Qatar,QAT,Asia,Tunisia,18,25.354826,51.183884,33.886917,9.537499
 1415,Qatar,QAT,Asia,Venezuela (Bolivarian Republic of),1,25.354826,51.183884,6.42375,-66.58973
 1416,Republic of Moldova,MDA,Europe,Germany,14,47.411631,28.369885,51.165691,10.451526
 1417,Republic of Moldova,MDA,Europe,Republic of Moldova,231,47.411631,28.369885,47.411631,28.369885
 1418,Republic of Moldova,MDA,Europe,Syrian Arab Republic,2,47.411631,28.369885,34.802075,38.996815
-1419,Republic of Moldova,MDA,Europe,Total,3032,47.411631,28.369885,,
+1419,Republic of Moldova,MDA,Europe,Total,3032,47.411631,28.369885,NaN,NaN
 1420,Romania,ROU,Europe,Bangladesh,5,45.943161,24.96676,23.684994,90.356331
 1421,Romania,ROU,Europe,Bulgaria,1,45.943161,24.96676,42.733883,25.48583
 1422,Romania,ROU,Europe,Colombia,1,45.943161,24.96676,4.570868,-74.297333
@@ -1429,15 +1429,15 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1427,Romania,ROU,Europe,Republic of Moldova,3,45.943161,24.96676,47.411631,28.369885
 1428,Romania,ROU,Europe,Romania,2495,45.943161,24.96676,45.943161,24.96676
 1429,Romania,ROU,Europe,Serbia,1,45.943161,24.96676,44.016521,21.005859
-1430,Romania,ROU,Europe,Total,14698,45.943161,24.96676,,
-1431,Russian Federation,RUS,Europe,Total,423,61.52401,105.318756,,
+1430,Romania,ROU,Europe,Total,14698,45.943161,24.96676,NaN,NaN
+1431,Russian Federation,RUS,Europe,Total,423,61.52401,105.318756,NaN,NaN
 1432,Rwanda,RWA,Africa,Burundi,73,-1.940278,29.873888,-3.373056,29.918886
 1433,Rwanda,RWA,Africa,Nigeria,1,-1.940278,29.873888,9.081999,8.675277
 1434,Rwanda,RWA,Africa,Rwanda,48,-1.940278,29.873888,-1.940278,29.873888
-1435,Rwanda,RWA,Africa,Total,189,-1.940278,29.873888,,
+1435,Rwanda,RWA,Africa,Total,189,-1.940278,29.873888,NaN,NaN
 1436,Senegal,SEN,Africa,Nigeria,5,14.497401,-14.452362,9.081999,8.675277
 1437,Senegal,SEN,Africa,Senegal,1,14.497401,-14.452362,14.497401,-14.452362
-1438,Senegal,SEN,Africa,Total,3,14.497401,-14.452362,,
+1438,Senegal,SEN,Africa,Total,3,14.497401,-14.452362,NaN,NaN
 1439,Serbia,SRB,Europe,Albania,21,44.016521,21.005859,41.153332,20.168331
 1440,Serbia,SRB,Europe,Bosnia and Herzegovina,8,44.016521,21.005859,43.915886,17.679076
 1441,Serbia,SRB,Europe,Bulgaria,1,44.016521,21.005859,42.733883,25.48583
@@ -1451,12 +1451,12 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1449,Serbia,SRB,Europe,Serbia,483,44.016521,21.005859,44.016521,21.005859
 1450,Serbia,SRB,Europe,Thailand,1,44.016521,21.005859,15.870032,100.992541
 1451,Serbia,SRB,Europe,The former Yugoslav Republic of Macedonia,1,44.016521,21.005859,41.608635,21.745275
-1452,Serbia,SRB,Europe,Total,803,44.016521,21.005859,,
+1452,Serbia,SRB,Europe,Total,803,44.016521,21.005859,NaN,NaN
 1453,Serbia,SRB,Europe,Turkey,1,44.016521,21.005859,38.963745,35.243322
 1454,Serbia,SRB,Europe,Ukraine,3,44.016521,21.005859,48.379433,31.16558
-1455,Sierra Leone,SLE,Africa,Total,67,8.460555,-11.779889,,
+1455,Sierra Leone,SLE,Africa,Total,67,8.460555,-11.779889,NaN,NaN
 1456,Singapore,SGP,Asia,Singapore,16,1.352083,103.819836,1.352083,103.819836
-1457,Singapore,SGP,Asia,Total,182,1.352083,103.819836,,
+1457,Singapore,SGP,Asia,Total,182,1.352083,103.819836,NaN,NaN
 1458,Slovakia,SVK,Europe,Bulgaria,1,48.669026,19.699024,42.733883,25.48583
 1459,Slovakia,SVK,Europe,Cameroon,1,48.669026,19.699024,7.369722,12.354722
 1460,Slovakia,SVK,Europe,Hungary,1,48.669026,19.699024,47.162494,19.503304
@@ -1465,7 +1465,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1463,Slovakia,SVK,Europe,Republic of Moldova,1,48.669026,19.699024,47.411631,28.369885
 1464,Slovakia,SVK,Europe,Romania,1,48.669026,19.699024,45.943161,24.96676
 1465,Slovakia,SVK,Europe,Slovakia,130,48.669026,19.699024,48.669026,19.699024
-1466,Slovakia,SVK,Europe,Total,481,48.669026,19.699024,,
+1466,Slovakia,SVK,Europe,Total,481,48.669026,19.699024,NaN,NaN
 1467,Slovakia,SVK,Europe,Ukraine,2,48.669026,19.699024,48.379433,31.16558
 1468,Slovakia,SVK,Europe,Vietnam,1,48.669026,19.699024,14.058324,108.277199
 1469,Slovenia,SVN,Europe,Albania,1,46.151241,14.995463,41.153332,20.168331
@@ -1479,14 +1479,14 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1477,Slovenia,SVN,Europe,Iran (Islamic Republic of),1,46.151241,14.995463,32.427908,53.688046
 1478,Slovenia,SVN,Europe,Kazakhstan,2,46.151241,14.995463,48.019573,66.923684
 1479,Slovenia,SVN,Europe,Kosovo under UNSCR 1244,1,46.151241,14.995463,42.602636,20.902977
-1480,Slovenia,SVN,Europe,Others,6,46.151241,14.995463,,
+1480,Slovenia,SVN,Europe,Others,6,46.151241,14.995463,NaN,NaN
 1481,Slovenia,SVN,Europe,Republic of Moldova,7,46.151241,14.995463,47.411631,28.369885
 1482,Slovenia,SVN,Europe,Romania,39,46.151241,14.995463,45.943161,24.96676
 1483,Slovenia,SVN,Europe,Serbia,31,46.151241,14.995463,44.016521,21.005859
 1484,Slovenia,SVN,Europe,Slovakia,7,46.151241,14.995463,48.669026,19.699024
 1485,Slovenia,SVN,Europe,Slovenia,25,46.151241,14.995463,46.151241,14.995463
 1486,Slovenia,SVN,Europe,The former Yugoslav Republic of Macedonia,2,46.151241,14.995463,41.608635,21.745275
-1487,Slovenia,SVN,Europe,Total,417,46.151241,14.995463,,
+1487,Slovenia,SVN,Europe,Total,417,46.151241,14.995463,NaN,NaN
 1488,Slovenia,SVN,Europe,Ukraine,36,46.151241,14.995463,48.379433,31.16558
 1489,South Africa,ZAF,Africa,Bangladesh,1,-30.559482,22.937506,23.684994,90.356331
 1490,South Africa,ZAF,Africa,Brazil,2,-30.559482,22.937506,-14.235004,-51.92528
@@ -1505,7 +1505,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1503,South Africa,ZAF,Africa,South Africa,156,-30.559482,22.937506,-30.559482,22.937506
 1504,South Africa,ZAF,Africa,Swaziland,1,-30.559482,22.937506,-26.522503,31.465866
 1505,South Africa,ZAF,Africa,Thailand,48,-30.559482,22.937506,15.870032,100.992541
-1506,South Africa,ZAF,Africa,Total,408,-30.559482,22.937506,,
+1506,South Africa,ZAF,Africa,Total,408,-30.559482,22.937506,NaN,NaN
 1507,Spain,ESP,Europe,Albania,2,40.463667,-3.74922,41.153332,20.168331
 1508,Spain,ESP,Europe,Argentina,17,40.463667,-3.74922,-38.416097,-63.616672
 1509,Spain,ESP,Europe,Belarus,1,40.463667,-3.74922,53.709807,27.953389
@@ -1568,7 +1568,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1566,Spain,ESP,Europe,Spain,177,40.463667,-3.74922,40.463667,-3.74922
 1567,Spain,ESP,Europe,Switzerland,1,40.463667,-3.74922,46.818188,8.227512
 1568,Spain,ESP,Europe,Thailand,9,40.463667,-3.74922,15.870032,100.992541
-1569,Spain,ESP,Europe,Total,17472,40.463667,-3.74922,,
+1569,Spain,ESP,Europe,Total,17472,40.463667,-3.74922,NaN,NaN
 1570,Spain,ESP,Europe,Uganda,2,40.463667,-3.74922,1.373333,32.290275
 1571,Spain,ESP,Europe,Ukraine,18,40.463667,-3.74922,48.379433,31.16558
 1572,Spain,ESP,Europe,United Kingdom,1,40.463667,-3.74922,55.378051,-3.435973
@@ -1576,13 +1576,13 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1574,Spain,ESP,Europe,Venezuela (Bolivarian Republic of),16,40.463667,-3.74922,6.42375,-66.58973
 1575,Spain,ESP,Europe,Vietnam,1,40.463667,-3.74922,14.058324,108.277199
 1576,Sri Lanka,LKA,Asia,Sri Lanka,13,7.873054,80.771797,7.873054,80.771797
-1577,Sri Lanka,LKA,Asia,Total,138,7.873054,80.771797,,
+1577,Sri Lanka,LKA,Asia,Total,138,7.873054,80.771797,NaN,NaN
 1578,Sri Lanka,LKA,Asia,Uzbekistan,1,7.873054,80.771797,41.377491,64.585262
-1579,Suriname,SUR,Americas,Total,36,3.919305,-56.027783,,
+1579,Suriname,SUR,Americas,Total,36,3.919305,-56.027783,NaN,NaN
 1580,Swaziland,SWZ,Africa,China,1,-26.522503,31.465866,35.86166,104.195397
 1581,Swaziland,SWZ,Africa,South Africa,29,-26.522503,31.465866,-30.559482,22.937506
 1582,Swaziland,SWZ,Africa,Swaziland,26,-26.522503,31.465866,-26.522503,31.465866
-1583,Swaziland,SWZ,Africa,Total,66,-26.522503,31.465866,,
+1583,Swaziland,SWZ,Africa,Total,66,-26.522503,31.465866,NaN,NaN
 1584,Sweden,SWE,Europe,Bulgaria,19,60.128161,18.643501,42.733883,25.48583
 1585,Sweden,SWE,Europe,Hungary,2,60.128161,18.643501,47.162494,19.503304
 1586,Sweden,SWE,Europe,Lithuania,1,60.128161,18.643501,55.169438,23.881275
@@ -1592,7 +1592,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1590,Sweden,SWE,Europe,Serbia,1,60.128161,18.643501,44.016521,21.005859
 1591,Sweden,SWE,Europe,Slovakia,2,60.128161,18.643501,48.669026,19.699024
 1592,Sweden,SWE,Europe,Sweden,1,60.128161,18.643501,60.128161,18.643501
-1593,Sweden,SWE,Europe,Total,126,60.128161,18.643501,,
+1593,Sweden,SWE,Europe,Total,126,60.128161,18.643501,NaN,NaN
 1594,Sweden,SWE,Europe,United Kingdom,1,60.128161,18.643501,55.378051,-3.435973
 1595,Switzerland,CHE,Europe,Albania,2,46.818188,8.227512,41.153332,20.168331
 1596,Switzerland,CHE,Europe,Austria,1,46.818188,8.227512,47.516231,14.550072
@@ -1624,7 +1624,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1622,Switzerland,CHE,Europe,Mozambique,1,46.818188,8.227512,-18.665695,35.529562
 1623,Switzerland,CHE,Europe,Nepal,1,46.818188,8.227512,28.394857,84.124008
 1624,Switzerland,CHE,Europe,Nigeria,3,46.818188,8.227512,9.081999,8.675277
-1625,Switzerland,CHE,Europe,Others,1,46.818188,8.227512,,
+1625,Switzerland,CHE,Europe,Others,1,46.818188,8.227512,NaN,NaN
 1626,Switzerland,CHE,Europe,Philippines,2,46.818188,8.227512,12.879721,121.774017
 1627,Switzerland,CHE,Europe,Poland,1,46.818188,8.227512,51.919438,19.145136
 1628,Switzerland,CHE,Europe,Romania,45,46.818188,8.227512,45.943161,24.96676
@@ -1637,12 +1637,12 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1635,Switzerland,CHE,Europe,Thailand,64,46.818188,8.227512,15.870032,100.992541
 1636,Switzerland,CHE,Europe,The former Yugoslav Republic of Macedonia,1,46.818188,8.227512,41.608635,21.745275
 1637,Switzerland,CHE,Europe,Togo,1,46.818188,8.227512,8.619543,0.824782
-1638,Switzerland,CHE,Europe,Total,881,46.818188,8.227512,,
+1638,Switzerland,CHE,Europe,Total,881,46.818188,8.227512,NaN,NaN
 1639,Switzerland,CHE,Europe,Ukraine,2,46.818188,8.227512,48.379433,31.16558
 1640,Switzerland,CHE,Europe,Venezuela (Bolivarian Republic of),1,46.818188,8.227512,6.42375,-66.58973
 1641,Syrian Arab Republic,SYR,Asia,Syrian Arab Republic,1,34.802075,38.996815,34.802075,38.996815
 1642,Tajikistan,TJK,Asia,Tajikistan,180,38.861034,71.276093,38.861034,71.276093
-1643,Tajikistan,TJK,Asia,Total,543,38.861034,71.276093,,
+1643,Tajikistan,TJK,Asia,Total,543,38.861034,71.276093,NaN,NaN
 1644,Tajikistan,TJK,Asia,Uzbekistan,1,38.861034,71.276093,41.377491,64.585262
 1645,Thailand,THA,Asia,Bangladesh,73,15.870032,100.992541,23.684994,90.356331
 1646,Thailand,THA,Asia,Cambodia,269,15.870032,100.992541,12.565679,104.990963
@@ -1651,11 +1651,11 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1649,Thailand,THA,Asia,Indonesia,8,15.870032,100.992541,-0.789275,113.921327
 1650,Thailand,THA,Asia,Lao People's Democratic Republic,516,15.870032,100.992541,19.85627,102.495496
 1651,Thailand,THA,Asia,Myanmar,1210,15.870032,100.992541,21.913965,95.956223
-1652,Thailand,THA,Asia,Others,33,15.870032,100.992541,,
+1652,Thailand,THA,Asia,Others,33,15.870032,100.992541,NaN,NaN
 1653,Thailand,THA,Asia,Philippines,1,15.870032,100.992541,12.879721,121.774017
 1654,Thailand,THA,Asia,Sri Lanka,1,15.870032,100.992541,7.873054,80.771797
 1655,Thailand,THA,Asia,Thailand,1598,15.870032,100.992541,15.870032,100.992541
-1656,Thailand,THA,Asia,Total,4531,15.870032,100.992541,,
+1656,Thailand,THA,Asia,Total,4531,15.870032,100.992541,NaN,NaN
 1657,Thailand,THA,Asia,Uganda,1,15.870032,100.992541,1.373333,32.290275
 1658,Thailand,THA,Asia,Uzbekistan,2,15.870032,100.992541,41.377491,64.585262
 1659,Thailand,THA,Asia,Vietnam,136,15.870032,100.992541,14.058324,108.277199
@@ -1666,18 +1666,18 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1664,The former Yugoslav Republic of Macedonia,MKD,Europe,Romania,1,41.608635,21.745275,45.943161,24.96676
 1665,The former Yugoslav Republic of Macedonia,MKD,Europe,Serbia,2,41.608635,21.745275,44.016521,21.005859
 1666,The former Yugoslav Republic of Macedonia,MKD,Europe,The former Yugoslav Republic of Macedonia,37,41.608635,21.745275,41.608635,21.745275
-1667,The former Yugoslav Republic of Macedonia,MKD,Europe,Total,213,41.608635,21.745275,,
-1668,Timor-Leste,TLS,Asia,Total,39,-8.874217,125.727539,,
+1667,The former Yugoslav Republic of Macedonia,MKD,Europe,Total,213,41.608635,21.745275,NaN,NaN
+1668,Timor-Leste,TLS,Asia,Total,39,-8.874217,125.727539,NaN,NaN
 1669,Togo,TGO,Africa,Benin,2,8.619543,0.824782,9.30769,2.315834
 1670,Togo,TGO,Africa,Mali,12,8.619543,0.824782,17.570692,-3.996166
 1671,Togo,TGO,Africa,Nigeria,1,8.619543,0.824782,9.081999,8.675277
 1672,Togo,TGO,Africa,Togo,573,8.619543,0.824782,8.619543,0.824782
-1673,Togo,TGO,Africa,Total,4432,8.619543,0.824782,,
+1673,Togo,TGO,Africa,Total,4432,8.619543,0.824782,NaN,NaN
 1674,Trinidad and Tobago,TTO,Americas,Colombia,15,10.691803,-61.222503,4.570868,-74.297333
 1675,Trinidad and Tobago,TTO,Americas,Dominican Republic,10,10.691803,-61.222503,18.735693,-70.162651
 1676,Trinidad and Tobago,TTO,Americas,Guyana,3,10.691803,-61.222503,4.860416,-58.93018
 1677,Trinidad and Tobago,TTO,Americas,Philippines,1,10.691803,-61.222503,12.879721,121.774017
-1678,Trinidad and Tobago,TTO,Americas,Total,47,10.691803,-61.222503,,
+1678,Trinidad and Tobago,TTO,Americas,Total,47,10.691803,-61.222503,NaN,NaN
 1679,Trinidad and Tobago,TTO,Americas,Trinidad and Tobago,1,10.691803,-61.222503,10.691803,-61.222503
 1680,Trinidad and Tobago,TTO,Americas,Venezuela (Bolivarian Republic of),3,10.691803,-61.222503,6.42375,-66.58973
 1681,Tunisia,TUN,Africa,Bangladesh,1,33.886917,9.537499,23.684994,90.356331
@@ -1685,7 +1685,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1683,Tunisia,TUN,Africa,Morocco,2,33.886917,9.537499,31.791702,-7.09262
 1684,Tunisia,TUN,Africa,Nigeria,1,33.886917,9.537499,9.081999,8.675277
 1685,Tunisia,TUN,Africa,Senegal,1,33.886917,9.537499,14.497401,-14.452362
-1686,Tunisia,TUN,Africa,Total,416,33.886917,9.537499,,
+1686,Tunisia,TUN,Africa,Total,416,33.886917,9.537499,NaN,NaN
 1687,Tunisia,TUN,Africa,Tunisia,223,33.886917,9.537499,33.886917,9.537499
 1688,Turkey,TUR,Asia,Afghanistan,15,38.963745,35.243322,33.93911,67.709953
 1689,Turkey,TUR,Asia,Armenia,2,38.963745,35.243322,40.069099,45.038189
@@ -1706,19 +1706,19 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1704,Turkey,TUR,Asia,Russian Federation,39,38.963745,35.243322,61.52401,105.318756
 1705,Turkey,TUR,Asia,Syrian Arab Republic,13,38.963745,35.243322,34.802075,38.996815
 1706,Turkey,TUR,Asia,Tajikistan,1,38.963745,35.243322,38.861034,71.276093
-1707,Turkey,TUR,Asia,Total,1588,38.963745,35.243322,,
+1707,Turkey,TUR,Asia,Total,1588,38.963745,35.243322,NaN,NaN
 1708,Turkey,TUR,Asia,Turkey,1,38.963745,35.243322,38.963745,35.243322
 1709,Turkey,TUR,Asia,Turkmenistan,118,38.963745,35.243322,38.969719,59.556278
 1710,Turkey,TUR,Asia,Ukraine,25,38.963745,35.243322,48.379433,31.16558
 1711,Turkey,TUR,Asia,Uzbekistan,145,38.963745,35.243322,41.377491,64.585262
-1712,Turkmenistan,TKM,Asia,Total,44,38.969719,59.556278,,
+1712,Turkmenistan,TKM,Asia,Total,44,38.969719,59.556278,NaN,NaN
 1713,Uganda,UGA,Africa,Burundi,1,1.373333,32.290275,-3.373056,29.918886
 1714,Uganda,UGA,Africa,Ghana,10,1.373333,32.290275,7.946527,-1.023194
 1715,Uganda,UGA,Africa,Madagascar,5,1.373333,32.290275,-18.766947,46.869107
 1716,Uganda,UGA,Africa,Rwanda,5,1.373333,32.290275,-1.940278,29.873888
 1717,Uganda,UGA,Africa,Somalia,6,1.373333,32.290275,5.152149,46.199616
 1718,Uganda,UGA,Africa,South Sudan,2,1.373333,32.290275,7.8626845,29.6949232
-1719,Uganda,UGA,Africa,Total,1421,1.373333,32.290275,,
+1719,Uganda,UGA,Africa,Total,1421,1.373333,32.290275,NaN,NaN
 1720,Uganda,UGA,Africa,Uganda,64,1.373333,32.290275,1.373333,32.290275
 1721,Uganda,UGA,Africa,United Republic of Tanzania,1,1.373333,32.290275,-6.369028,34.888822
 1722,Ukraine,UKR,Europe,Belarus,2,48.379433,31.16558,53.709807,27.953389
@@ -1728,7 +1728,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1726,Ukraine,UKR,Europe,Philippines,1,48.379433,31.16558,12.879721,121.774017
 1727,Ukraine,UKR,Europe,Republic of Moldova,48,48.379433,31.16558,47.411631,28.369885
 1728,Ukraine,UKR,Europe,Russian Federation,25,48.379433,31.16558,61.52401,105.318756
-1729,Ukraine,UKR,Europe,Total,4115,48.379433,31.16558,,
+1729,Ukraine,UKR,Europe,Total,4115,48.379433,31.16558,NaN,NaN
 1730,Ukraine,UKR,Europe,Ukraine,646,48.379433,31.16558,48.379433,31.16558
 1731,Ukraine,UKR,Europe,Uzbekistan,19,48.379433,31.16558,41.377491,64.585262
 1732,Ukraine,UKR,Europe,Vietnam,24,48.379433,31.16558,14.058324,108.277199
@@ -1757,7 +1757,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1755,United Arab Emirates,ARE,Asia,Syrian Arab Republic,2,23.424076,53.847818,34.802075,38.996815
 1756,United Arab Emirates,ARE,Asia,Tajikistan,1,23.424076,53.847818,38.861034,71.276093
 1757,United Arab Emirates,ARE,Asia,Thailand,23,23.424076,53.847818,15.870032,100.992541
-1758,United Arab Emirates,ARE,Asia,Total,528,23.424076,53.847818,,
+1758,United Arab Emirates,ARE,Asia,Total,528,23.424076,53.847818,NaN,NaN
 1759,United Arab Emirates,ARE,Asia,Turkmenistan,1,23.424076,53.847818,38.969719,59.556278
 1760,United Arab Emirates,ARE,Asia,United Arab Emirates,4,23.424076,53.847818,23.424076,53.847818
 1761,United Arab Emirates,ARE,Asia,Uzbekistan,23,23.424076,53.847818,41.377491,64.585262
@@ -1822,7 +1822,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1820,United Kingdom,GBR,Europe,Syrian Arab Republic,1,55.378051,-3.435973,34.802075,38.996815
 1821,United Kingdom,GBR,Europe,Thailand,10,55.378051,-3.435973,15.870032,100.992541
 1822,United Kingdom,GBR,Europe,Togo,1,55.378051,-3.435973,8.619543,0.824782
-1823,United Kingdom,GBR,Europe,Total,4439,55.378051,-3.435973,,
+1823,United Kingdom,GBR,Europe,Total,4439,55.378051,-3.435973,NaN,NaN
 1824,United Kingdom,GBR,Europe,Turkey,1,55.378051,-3.435973,38.963745,35.243322
 1825,United Kingdom,GBR,Europe,Uganda,80,55.378051,-3.435973,1.373333,32.290275
 1826,United Kingdom,GBR,Europe,Ukraine,1,55.378051,-3.435973,48.379433,31.16558
@@ -1834,7 +1834,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1832,United Kingdom,GBR,Europe,Zambia,2,55.378051,-3.435973,-13.133897,27.849332
 1833,United Kingdom,GBR,Europe,Zimbabwe,19,55.378051,-3.435973,-19.015438,29.154857
 1834,United Republic of Tanzania,TZA,Africa,Rwanda,1,-6.369028,34.888822,-1.940278,29.873888
-1835,United Republic of Tanzania,TZA,Africa,Total,9,-6.369028,34.888822,,
+1835,United Republic of Tanzania,TZA,Africa,Total,9,-6.369028,34.888822,NaN,NaN
 1836,United States of America,USA,Americas,Afghanistan,6,37.09024,-95.712891,33.93911,67.709953
 1837,United States of America,USA,Americas,Algeria,2,37.09024,-95.712891,28.033886,1.659626
 1838,United States of America,USA,Americas,Argentina,2,37.09024,-95.712891,-38.416097,-63.616672
@@ -1897,7 +1897,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1895,United States of America,USA,Americas,Niger,2,37.09024,-95.712891,17.607789,8.081666
 1896,United States of America,USA,Americas,Nigeria,2,37.09024,-95.712891,9.081999,8.675277
 1897,United States of America,USA,Americas,Norway,2,37.09024,-95.712891,60.472024,8.468946
-1898,United States of America,USA,Americas,Others,17,37.09024,-95.712891,,
+1898,United States of America,USA,Americas,Others,17,37.09024,-95.712891,NaN,NaN
 1899,United States of America,USA,Americas,Pakistan,11,37.09024,-95.712891,30.375321,69.345116
 1900,United States of America,USA,Americas,Peru,66,37.09024,-95.712891,-9.189967,-75.015152
 1901,United States of America,USA,Americas,Philippines,1487,37.09024,-95.712891,12.879721,121.774017
@@ -1916,7 +1916,7 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1914,United States of America,USA,Americas,Sweden,1,37.09024,-95.712891,60.128161,18.643501
 1915,United States of America,USA,Americas,Thailand,742,37.09024,-95.712891,15.870032,100.992541
 1916,United States of America,USA,Americas,Togo,2,37.09024,-95.712891,8.619543,0.824782
-1917,United States of America,USA,Americas,Total,18443,37.09024,-95.712891,,
+1917,United States of America,USA,Americas,Total,18443,37.09024,-95.712891,NaN,NaN
 1918,United States of America,USA,Americas,Uganda,2,37.09024,-95.712891,1.373333,32.290275
 1919,United States of America,USA,Americas,Ukraine,17,37.09024,-95.712891,48.379433,31.16558
 1920,United States of America,USA,Americas,United Kingdom,2,37.09024,-95.712891,55.378051,-3.435973
@@ -1930,12 +1930,12 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1928,Uruguay,URY,Americas,Dominican Republic,95,-32.522779,-55.765835,18.735693,-70.162651
 1929,Uruguay,URY,Americas,Paraguay,1,-32.522779,-55.765835,-23.442503,-58.443832
 1930,Uruguay,URY,Americas,Peru,1,-32.522779,-55.765835,-9.189967,-75.015152
-1931,Uruguay,URY,Americas,Total,398,-32.522779,-55.765835,,
+1931,Uruguay,URY,Americas,Total,398,-32.522779,-55.765835,NaN,NaN
 1932,Uruguay,URY,Americas,Uruguay,12,-32.522779,-55.765835,-32.522779,-55.765835
 1933,Uzbekistan,UZB,Asia,Kazakhstan,1,41.377491,64.585262,48.019573,66.923684
 1934,Uzbekistan,UZB,Asia,Kyrgyzstan,1,41.377491,64.585262,41.20438,74.766098
 1935,Uzbekistan,UZB,Asia,Tajikistan,1,41.377491,64.585262,38.861034,71.276093
-1936,Uzbekistan,UZB,Asia,Total,11970,41.377491,64.585262,,
+1936,Uzbekistan,UZB,Asia,Total,11970,41.377491,64.585262,NaN,NaN
 1937,Uzbekistan,UZB,Asia,Uzbekistan,438,41.377491,64.585262,41.377491,64.585262
 1938,Venezuela (Bolivarian Republic of),VEN,Americas,Bolivia (Plurinational State of),2,6.42375,-66.58973,-16.290154,-63.588653
 1939,Venezuela (Bolivarian Republic of),VEN,Americas,China,19,6.42375,-66.58973,35.86166,104.195397
@@ -1950,13 +1950,13 @@ index,country,ISO,region,destination,value,latitude,longitude,dest_lat,dest_long
 1948,Venezuela (Bolivarian Republic of),VEN,Americas,Philippines,1,6.42375,-66.58973,12.879721,121.774017
 1949,Venezuela (Bolivarian Republic of),VEN,Americas,Somalia,1,6.42375,-66.58973,5.152149,46.199616
 1950,Venezuela (Bolivarian Republic of),VEN,Americas,South Africa,1,6.42375,-66.58973,-30.559482,22.937506
-1951,Venezuela (Bolivarian Republic of),VEN,Americas,Total,276,6.42375,-66.58973,,
+1951,Venezuela (Bolivarian Republic of),VEN,Americas,Total,276,6.42375,-66.58973,NaN,NaN
 1952,Venezuela (Bolivarian Republic of),VEN,Americas,Venezuela (Bolivarian Republic of),163,6.42375,-66.58973,6.42375,-66.58973
-1953,Vietnam,VNM,Asia,Total,7260,14.058324,108.277199,,
+1953,Vietnam,VNM,Asia,Total,7260,14.058324,108.277199,NaN,NaN
 1954,Zambia,ZMB,Africa,Afghanistan,1,-13.133897,27.849332,33.93911,67.709953
 1955,Zambia,ZMB,Africa,Angola,5,-13.133897,27.849332,-11.202692,17.873887
 1956,Zambia,ZMB,Africa,Congo,1,-13.133897,27.849332,-4.038333,21.758664
 1957,Zambia,ZMB,Africa,Rwanda,13,-13.133897,27.849332,-1.940278,29.873888
-1958,Zambia,ZMB,Africa,Total,66,-13.133897,27.849332,,
+1958,Zambia,ZMB,Africa,Total,66,-13.133897,27.849332,NaN,NaN
 1959,Zambia,ZMB,Africa,Zambia,8,-13.133897,27.849332,-13.133897,27.849332
-1960,Zimbabwe,ZWE,Africa,Total,5,-19.015438,29.154857,,
+1960,Zimbabwe,ZWE,Africa,Total,5,-19.015438,29.154857,NaN,NaN
