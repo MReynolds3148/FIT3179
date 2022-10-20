@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A population pyramid for the US in 2000.",
   "background": "papayawhip",
   "data": { "url": "https://raw.githubusercontent.com/MReynolds3148/FIT3179/main/data/global_data.csv"},
   "transform": [
