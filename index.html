@@ -1,27 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        h1 {
-            text-align: center;
-            color: whitesmoke
-        }
-        p {
-            text-align: center;
-            color: whitesmoke
-        }
-        div {text-align: center;}
-        body {background-color: #19191A}
-    </style>
-    <title>FIT3139 GitHub Repository</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <title>Global Trafficking -- Mark Reynolds</title>
 </head>
-<body>
-    <h1>FIT3139 GitHub Repository</h1>
-    <p>This repo is used for assignment submissions and cloud storage for FIT3179</p>
-    <p>Author: Mark Reynolds</p>
-    <p>Student ID: 31485367</p>
+<body style="background-color: #4b5320;">
+    <div class="page">
+        <div class="pure-l">
+            <div class="pure-u-1-1">
+                <h1><b>GLOBAL TRAFFICKING</b></h1>
+            </div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-11-24">
+                <p>
+                    With technological improvements making travel consistently easier and cheaper, and wealth disparities
+                    creating a bigger and bigger divide between classes, forcing some people to turn to smuggling and
+                    illegal trafficking to survive and prosper.
+                    <br><br>
+                    Although the globe is more peaceful than ever, wars still rage and altercations still occur daily.
+                    This creates a demand for weapons, espcially small arms, which often are more easily and quickly obtained
+                    through less-than-legal suppliers, especially for countries with strong firearm laws.
+                    <br><br>
+                    Throughout history people have also been treated as a commodity for the wealthy, being used as servants or
+                    slaves. This trend appears to have continued into the modern age, as human trafficking is still a large issue.
+                </p>
+            </div>
+            <div class="pure-u-2-24"></div>
+            <div class="pure-u-11-24">
+                <p>
+                    When illegal firearms are seized or human trafficking victims are rescued, the occurence is often reported to
+                    the United Nations. The UN makes this data open-source, and tracks parameters such as location, what the outcome
+                    of raids were, and victim nationality. The currently available data contains information from 2010-2020 for
+                    firearm seizure, and 2007-2017 for human trafficking rescues. This report aims to compare the amount of incidents
+                    between different countries and regions for these issues over the 10 year period. 
+                    <br><br>
+                    It must be noted that this report makes no conclusions about the relative safety of different countries based on
+                    this data, as instances must be reported to the UN for tracking. A country may not disclose all this information,
+                    and so smuggling rates may be higher than they appear. Also, a country with stricter laws and more resources will
+                    be able to make more successful raids, leading to an apparent increase relative to countries with less resources
+                    and less means of controlling dangerous imports.
+                </p>
+            </div>
+        </div>
+
+        <div class="pure-l">
+            <div class="pure-u-1-1">
+                <h2>Seizures of Illegal Firearms</h2>
+            </div>
+        </div>
+
+        <div class="pure-g">
+          <div class="pure-u-1-1"><h3>Illegal Firearms Seized Per 100,000 People</h3></div></div>
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <div id="viz1" class="viz-container"></div>
+            </div>
+        </div>
+
+        <div class="pure-g">
+          <div class="pure-u-18-24"><h3>Ratio of Total Seized Firearms</h3></div></div>
+        <div class="pure-g">
+            <div class="pure-u-17-24">
+                <div id="viz2" class="viz-container"></div>
+            </div>
+            <div class="pure-u-1-24"></div>
+            <div class="pure-u-6-24">
+              <p>
+                 Potentially due to Australia's strict firearm laws, we seem to have a disproportionate
+                 amount of firearms smuggled across the border. With <strong style="color:lightcoral">
+                 over 24,000 weapons seized, Australia</strong> has almost twice the ratio of illegally
+                 imported firearms than the next highest, <strong style="color:lightcoral">Greece, with
+                 13,000 weapons per 100,000 people.</strong>
+                 <br><br>
+                 While reknowned for their love of guns, the <strong style="color:lightcoral">United States
+                 </strong>seized only <strong style="color:lightcoral">1500 firearms per 100k people</strong>, reflecting that it is much easier and cheaper
+                 for them to obtain weapons legally.
+              </p>
+            </div>
+        </div>
+
+        <div class="pure-l">
+            <div class="pure-u-1-1">
+                <h2>Human Trafficking</h2>
+            </div>
+        </div>
+
+        <div class="pure-g">
+          <div class="pure-u-1-1">
+            <h3>Trafficking Victims from their Country of Citizenship to a Destination</h3>
+          </div>
+        </div>
+        <div class="pure-g">
+          <div class="pure-u-1-1">
+              <div id="viz3" class="viz-container"></div>
+          </div>
+        </div>
+        <div class="pure-g">
+            <div class="pure-u-1-24"></div>
+            <div class="pure-u-9-24">
+                <h3>Number of Seized Firearms and Trafficking Victims Per 100,000 People</h3>
+            </div>
+            <div class="pure-u-2-24"></div>
+            <div class="pure-u-12-24">
+                <div class="figure">
+                    <p>
+                        The distributions of destination countries shows an interesting demographic of ideal
+                        victim nationalities for certain regions. <strong style="color:lightcoral">European and North American trafficking
+                        victims are sent across the globe</strong> to a variety of different countries. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="pure-g">
+            <div class="pure-u-12-24">
+                <div id="viz4" class="viz-container"></div>
+            </div>
+            <div class="pure-u-12-24">
+                <div class="figure">
+                    <p>
+                        <strong style="color:lightcoral">Victims from Africa, Asia, and South
+                        America tend to stay in their respective regions.</strong> However, after adjusting
+                        to account for the populations of each region, <strong style="color:lightcoral">there does not seem to be a correlation
+                        between the number of human trafficking victims and the number of illegally imported
+                        firearms.</strong> Travellers should be aware of the dangers associated with the illegal activity
+                        in the region they are going to, but there aren't any regions that should be avoided due to an
+                        ovewhelming presence of multiple types of trafficking.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="pure-l">
+            <div style='margin-left: 20px' class="pure-u-1-1">
+                <small style='font-weight: bold;'>FIT3179 2022 Assignment 2 - Mark Reynolds</small>
+                <br>
+                <small>Sources: <a href = 'https://dataunodc.un.org/'>UN</a>, <a href='https://www.naturalearthdata.com/'>Natural Earth</a>, <a href='https://www.kaggle.com/datasets/rsrishav/world-population?resource=download'>Rishav Sharma (kaggle)</a> <a href='https://www.kaggle.com/datasets/paultimothymooney/latitude-and-longitude-for-every-country-and-state'>Paul Mooney (kaggle)</a></small>
+            </div>
+        </div>
+    </div>
 </body>
+
+<script type="text/javascript">
+    var spec = 'firearm_map.vg.json'
+    vegaEmbed('#viz1', spec, {"actions": false})
+        .then(function(result) {})
+        .catch(console.error);
+    var spec = 'firearm_treemap.vg.json'
+    vegaEmbed('#viz2', spec, {"actions": false})
+        .then(function(result) {})
+        .catch(console.error);
+    var spec = 'human_traffic_map.vg.json'
+    vegaEmbed('#viz3', spec, {"actions": false})
+        .then(function(result) {})
+        .catch(console.error);
+    var spec = 'gun_human_dual_bars.vg.json'
+    vegaEmbed('#viz4', spec, {"actions": false})
+        .then(function(result) {})
+        .catch(console.error);
+</script>
 </html>
