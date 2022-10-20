@@ -1,0 +1,126 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 725,
+  "height": 350,
+  "padding": 2.5,
+  "autosize": "none",
+  "background": "black",
+  "data": [
+    {
+      "name": "tree",
+      "url": "https://raw.githubusercontent.com/MReynolds3148/FIT3179/main/data/firearm_tree.json",
+      "transform": [
+        {
+          "type": "stratify",
+          "key": "id",
+          "parentKey": "parent"
+        },
+        {
+          "type": "treemap",
+          "field": "val",
+          "sort": {"field": "value"},
+          "round": true,
+          "method": "squarify",
+          "ratio": 2,
+          "size": [{"signal": "width"}, {"signal": "height"}]
+        }
+      ]
+    },
+    {
+      "name": "nodes",
+      "source": "tree",
+      "transform": [{ "type": "filter", "expr": "datum.children" }]
+    },
+    {
+      "name": "leaves",
+      "source": "tree",
+      "transform": [{ "type": "filter", "expr": "!datum.children" }]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "nodes", "field": "name"},
+      "range": ["mediumpurple", "mediumslateblue", "darkorchid", "purple", "indigo"]
+    },
+    {
+      "name": "size",
+      "type": "ordinal",
+      "domain": [0, 1, 2, 3],
+      "range": [256, 28, 20, 14]
+    },
+    {
+      "name": "opacity",
+      "type": "ordinal",
+      "domain": [0, 1, 2, 3],
+      "range": [0.15, 0.5, 0.8, 1.0]
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "nodes"},
+      "interactive": true,
+      "encode": {
+        "enter": {
+          "fill": {"scale": "color", "field": "name"}
+        },
+        "update": {
+          "x": {"field": "x0"},
+          "y": {"field": "y0"},
+          "x2": {"field": "x1"},
+          "y2": {"field": "y1"}
+        }
+      },
+      "legend": {}
+    },
+    {
+      "type": "rect",
+      "from": {"data": "leaves"},
+      "encode": {
+        "enter": {
+          "stroke": {"value": "black"}
+        },
+        "update": {
+          "x": {"field": "x0"},
+          "y": {"field": "y0"},
+          "x2": {"field": "x1"},
+          "y2": {"field": "y1"},
+          "fill": {"value": "transparent"}
+        },
+        "hover": {
+          "fill": {"value": "lightcoral"},
+          "tooltip":
+              [{"field": "name",
+               "type": "nominal",
+               "title": "Country"
+              }
+              ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "nodes"},
+      "interactive": true,
+      "encode": {
+        "enter": {
+          "font": {"value": "Roboto"},
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "fill": {"value": "white"},
+          "text": {"field": "name"},
+          "fontSize": {"value": 30},
+          "fontWeight": {"value": "900"}
+        },
+        "update": {
+          "x": {"signal": "0.5 * (datum.x0 + datum.x1)"},
+          "y": {"signal": "0.5 * (datum.y0 + datum.y1)"}
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A population pyramid for the US in 2000.",
+  "background": "papayawhip",
+  "data": { "url": "https://raw.githubusercontent.com/MReynolds3148/FIT3179/main/data/global_data.csv"},
+  "transform": [
+    {"aggregate": [
+      {
+        "op": "sum",
+        "field": "firearms",
+        "as": "gun_sum"
+      },
+      {
+        "op": "sum",
+        "field": "population",
+        "as": "pop_sum"
+      },
+      {
+        "op": "sum",
+        "field": "human_traffic",
+        "as": "hum_sum"
+      }
+     ],
+     "groupby": ["Region"]
+     },
+     {
+      "calculate": "datum.gun_sum / (datum.pop_sum / 100000)",
+      "as": "guns_pp"
+    },
+    {
+      "calculate": "datum.hum_sum / (datum.pop_sum / 100000)",
+      "as": "humans_pp"
+    }
+  ],
+  "spacing": 0,
+  "hconcat": [{
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "field": "Region", "axis":null,
+        "sort": ["Oceania", "Americas", "Europe", "Africa", "Asia"]
+      },
+      "x": {
+        "aggregate": "sum", "field": "guns_pp",
+        "title": "Seized Firearms",
+        "axis": {"format": "s"},
+        "sort": "descending"
+      },
+      "color": {
+        "field": "Region",
+        "scale":{
+          "range": ["indigo", "rebeccapurple", "mediumpurple", "purple", "mediumslateblue"]
+        },
+        "legend": null
+      },
+      "tooltip":[
+      {
+        "field": "guns_pp",
+        "title": "Seized Firearms Per 100,000 People"
+      },
+      {
+        "field": "pop_sum",
+        "title": "Region Population"
+      },
+      {
+        "field": "gun_sum",
+        "title": "Total Seized Firearms"
+      }
+      ]
+    }
+  }, {
+    "width": 20,
+    "view": {"stroke": null},
+    "mark": {
+      "type": "text",
+      "align": "center"
+    },
+    "encoding": {
+      "y": {"field": "Region", "type": "nominal", "axis": null, "sort": ["Oceania", "Americas", "Europe", "Africa", "Asia"]},
+      "text": {"field": "Region", "type": "nominal", "title": "Region"}
+    }
+  }, {
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "field": "Region", "title": null,
+        "axis": null, "sort": ["Oceania", "Americas", "Europe", "Africa", "Asia"]
+      },
+      "x": {
+        "aggregate": "sum", "field": "humans_pp",
+        "title": "Trafficking Victims",
+        "axis": {"format": "s"}
+      },
+      "color": {
+        "field": "Region",
+        "legend": null
+      },
+      "tooltip":[
+      {
+        "field": "humans_pp",
+        "title": "Trafficking Victims Per 100,000 People"
+      },
+      {
+        "field": "pop_sum",
+        "title": "Region Population"
+      },
+      {
+        "field": "hum_sum",
+        "title": "Total Victims of Trafficking"
+      }
+      ]
+    }
+  }],
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": false}
+  }
+}
