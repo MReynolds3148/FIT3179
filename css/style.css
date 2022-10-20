@@ -1,0 +1,47 @@
+/* Specific instructions from https://purecss.io/grids/, ensures that Open Sans is applied everywhere */
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.pure-l{
+    margin-bottom: 10px;
+    background-color: burlywood;
+}
+
+.figure {
+    padding-left: 20px;
+}
+
+.figure-right {
+    padding-right: 20px;
+}
+
+.pure-g {
+    margin-bottom: 20px;
+}
+
+.page {
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+    padding-top: 20px;
+    background-color: papayawhip;
+}
+
+.viz-container {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
